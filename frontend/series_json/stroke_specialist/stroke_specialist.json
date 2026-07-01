@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x50 butterfly race rhythm",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "papillon",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "rhythm_control",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "race_pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "12x100 backstroke aerobic hold",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "dos",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "alignment",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "backstroke",
+      "alignment",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "10x75 breaststroke timing",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 750,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "timing",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breaststroke",
+      "timing",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "8x200 IM progression",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "transitions",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "transitions",
+      "vo2"
+    ]
+  },
+
+  {
+    "title": "20x25 butterfly underwater",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 35,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "underwater_power",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "underwater",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "14x50 backstroke frequency",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "dos",
+    "equipment": "tempo_trainer",
+    "volume": 700,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_rate",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "backstroke",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "18x25 breaststroke power kick",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z6",
+    "stroke": "brasse",
+    "equipment": "board",
+    "volume": 450,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "kick_power",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breaststroke",
+      "kick",
+      "power"
+    ]
+  },
+
+  {
+    "title": "6x300 IM aerobic control",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1800,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_balance",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "balance",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "24x25 backstroke breakout",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "dos",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "breakout",
+    "race_specificity": "50",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "backstroke",
+      "breakout",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "12x100 butterfly threshold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "papillon",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "holding_form",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "threshold",
+      "200"
+    ]
+  }
+]

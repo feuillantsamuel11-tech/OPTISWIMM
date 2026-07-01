@@ -1,0 +1,43 @@
+[
+  {
+    "title": "12x25 sprint race pace",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z7",
+    "distance": 25,
+    "equipment": "none",
+    "objective": "speed",
+    "difficulty": 5,
+    "cns_fatigue": 3,
+    "description": "Sprint race pace départ 45 sec",
+    "block_type": "speed",
+    "season_phase": 4,
+    "swimmer_level": 4,
+    "min_age": 15,
+    "max_age": 99,
+    "volume": 300,
+    "rest_seconds": 45,
+    "intensity_score": 10
+  },
+
+  {
+    "title": "8x50 lactique sprint",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z6",
+    "distance": 50,
+    "equipment": "none",
+    "objective": "lactate",
+    "difficulty": 5,
+    "cns_fatigue": 3,
+    "description": "Sprint lactique récupération longue",
+    "block_type": "speed",
+    "season_phase": 3,
+    "swimmer_level": 4,
+    "min_age": 16,
+    "max_age": 99,
+    "volume": 400,
+    "rest_seconds": 120,
+    "intensity_score": 10
+  }
+]

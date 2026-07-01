@@ -1,0 +1,43 @@
+[
+  {
+    "title": "20x100 seuil départ 1'25",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z4",
+    "distance": 100,
+    "equipment": "none",
+    "objective": "threshold",
+    "difficulty": 4,
+    "cns_fatigue": 2,
+    "description": "Maintien allure seuil",
+    "block_type": "main_set",
+    "season_phase": 3,
+    "swimmer_level": 3,
+    "min_age": 14,
+    "max_age": 99,
+    "volume": 2000,
+    "rest_seconds": 20,
+    "intensity_score": 8
+  },
+
+  {
+    "title": "10x200 seuil négatif split",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z4",
+    "distance": 200,
+    "equipment": "none",
+    "objective": "threshold",
+    "difficulty": 5,
+    "cns_fatigue": 2,
+    "description": "Deuxième 100 plus rapide",
+    "block_type": "main_set",
+    "season_phase": 3,
+    "swimmer_level": 4,
+    "min_age": 15,
+    "max_age": 99,
+    "volume": 2000,
+    "rest_seconds": 30,
+    "intensity_score": 8
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "8x50 éducatifs amplitude",
+    "category": "preset",
+    "stroke": "crawl",
+    "zone_code": "Z2",
+    "distance": 50,
+    "equipment": "pull",
+    "objective": "technique",
+    "difficulty": 2,
+    "cns_fatigue": 1,
+    "description": "Travail amplitude et alignement",
+    "block_type": "preset",
+    "season_phase": 2,
+    "swimmer_level": 2,
+    "min_age": 11,
+    "max_age": 99,
+    "volume": 400,
+    "rest_seconds": 15,
+    "intensity_score": 3
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "6x50 mobilité épaules",
+    "category": "preset",
+    "stroke": "4n",
+    "zone_code": "Z1",
+    "distance": 50,
+    "equipment": "none",
+    "objective": "mobility",
+    "difficulty": 1,
+    "cns_fatigue": 1,
+    "description": "Travail mobilité et relâchement",
+    "block_type": "preset",
+    "season_phase": 1,
+    "swimmer_level": 1,
+    "min_age": 10,
+    "max_age": 99,
+    "volume": 300,
+    "rest_seconds": 15,
+    "intensity_score": 2
+  },
+
+  {
+    "title": "8x25 mobilité scapulaire",
+    "category": "preset",
+    "stroke": "crawl",
+    "zone_code": "Z1",
+    "distance": 25,
+    "equipment": "none",
+    "objective": "mobility",
+    "difficulty": 1,
+    "cns_fatigue": 1,
+    "description": "Activation mobilité scapulaire",
+    "block_type": "preset",
+    "season_phase": 1,
+    "swimmer_level": 2,
+    "min_age": 12,
+    "max_age": 99,
+    "volume": 200,
+    "rest_seconds": 10,
+    "intensity_score": 2
+  }
+]

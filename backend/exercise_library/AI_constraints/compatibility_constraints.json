@@ -1,0 +1,89 @@
+[
+  {
+    "constraint_name": "speed_not_compatible_with_high_fatigue",
+    "trigger": {
+      "fatigue_level": "high"
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "speed",
+        "max_velocity"
+      ]
+    },
+    "recommended_replacement": [
+      "technical_precision",
+      "adaptive_recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "underwater_not_compatible_with_shoulder_pain",
+    "trigger": {
+      "shoulder_pain": true
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "underwater_power",
+        "breakout_skill"
+      ]
+    },
+    "recommended_replacement": [
+      "kick",
+      "mobility_recovery"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "breaststroke_volume_limited_under_knee_pain",
+    "trigger": {
+      "knee_pain": true
+    },
+    "restriction": {
+      "forbidden_strokes": [
+        "brasse"
+      ]
+    },
+    "recommended_replacement": [
+      "crawl",
+      "dos"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "limit_pull_under_shoulder_fatigue",
+    "trigger": {
+      "shoulder_fatigue": true
+    },
+    "restriction": {
+      "forbidden_equipment": [
+        "pull"
+      ]
+    },
+    "recommended_replacement": [
+      "snorkel",
+      "kick"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "avoid_threshold_after_speed_block",
+    "trigger": {
+      "previous_session_objective": "speed"
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "threshold",
+        "lactate_tolerance"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_power",
+      "technical_control"
+    ],
+    "priority": "moderate"
+  }
+]

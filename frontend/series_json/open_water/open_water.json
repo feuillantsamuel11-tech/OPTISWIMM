@@ -1,0 +1,231 @@
+[
+  {
+    "title": "3x1000 open water aerobic",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 3000,
+    "rest": 45,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "long_aerobic_hold",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "distance",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "5x800 pacing control",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 4000,
+    "rest": 40,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pace_control",
+    "race_specificity": "10k",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "pacing",
+      "tempo",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "10x400 drafting simulation",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 4000,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "drafting",
+    "race_specificity": "open_water",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "drafting",
+      "race_pace",
+      "open_water"
+    ]
+  },
+
+  {
+    "title": "4x1500 continuous swim",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 6000,
+    "rest": 60,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "continuous_efficiency",
+    "race_specificity": "10k",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "continuous",
+      "distance",
+      "efficiency"
+    ]
+  },
+
+  {
+    "title": "20x200 no-wall pacing",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 4000,
+    "rest": 10,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "continuous_rhythm",
+    "race_specificity": "5k",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "continuous",
+      "rhythm",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "8x500 sighting progression",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 4000,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "sighting",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "sighting",
+      "technical",
+      "open_water"
+    ]
+  },
+
+  {
+    "title": "6x1000 threshold endurance",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 6000,
+    "rest": 45,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "threshold_hold",
+    "race_specificity": "10k",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "threshold",
+      "distance",
+      "open_water"
+    ]
+  },
+
+  {
+    "title": "12x300 race finish build",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 3600,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "finish_speed",
+    "race_specificity": "5k",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "finish",
+      "race_pace",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "16x250 open water VO2",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 4000,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "oxygen_efficiency",
+    "race_specificity": "1500",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "vo2",
+      "distance",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "2000 relaxed recovery swim",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "long_relaxation",
+    "race_specificity": "open_water",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "recovery",
+      "distance",
+      "open_water"
+    ]
+  }
+]

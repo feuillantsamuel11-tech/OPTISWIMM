@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x50 paddles power hold",
+    "category": "main_set",
+    "objective": "resistance_power",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "propulsion_power",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "paddles",
+      "power",
+      "propulsion"
+    ]
+  },
+
+  {
+    "title": "24x25 resisted sprint",
+    "category": "speed",
+    "objective": "resistance_power",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "parachute",
+    "volume": 600,
+    "rest": 45,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "max_force",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "resisted",
+      "sprint",
+      "power"
+    ]
+  },
+
+  {
+    "title": "10x100 force endurance",
+    "category": "main_set",
+    "objective": "resistance_power",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "force_maintenance",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "force",
+      "endurance",
+      "maintenance"
+    ]
+  },
+
+  {
+    "title": "18x25 power cords sprint",
+    "category": "speed",
+    "objective": "resistance_power",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "cords",
+    "volume": 450,
+    "rest": 40,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "motor_recruitment",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "cords",
+      "recruitment",
+      "power"
+    ]
+  },
+
+  {
+    "title": "8x200 paddles threshold strength",
+    "category": "main_set",
+    "objective": "resistance_power",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1600,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "strength_threshold",
+    "race_specificity": "800",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "strength",
+      "threshold",
+      "paddles"
+    ]
+  },
+
+  {
+    "title": "12x75 lactate resistance swim",
+    "category": "main_set",
+    "objective": "resistance_power",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "parachute",
+    "volume": 900,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "fatigue_resistance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "lactate",
+      "resistance",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "6x300 pull power aerobic",
+    "category": "main_set",
+    "objective": "resistance_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1800,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "distance_propulsion",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pull",
+      "distance",
+      "power"
+    ]
+  },
+
+  {
+    "title": "20x50 resisted race pace",
+    "category": "main_set",
+    "objective": "resistance_power",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "parachute",
+    "volume": 1000,
+    "rest": 25,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_force",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "race_pace",
+      "resisted",
+      "power"
+    ]
+  },
+
+  {
+    "title": "14x50 sprint force progression",
+    "category": "speed",
+    "objective": "resistance_power",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "cords",
+    "volume": 700,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "progressive_power",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "force",
+      "progression",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "1200 relaxed pull release",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "muscular_release",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "release",
+      "pull",
+      "recovery"
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "20x100 IM aerobic progression",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_transition_control",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "IM",
+      "aerobic",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "12x200 IM threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 2400,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_transition_stability",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "threshold",
+      "400"
+    ]
+  },
+
+  {
+    "title": "16x75 IM stroke build",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "stroke_quality",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "IM",
+      "technique",
+      "quality"
+    ]
+  },
+
+  {
+    "title": "8x300 IM endurance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 2400,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "long_transition_control",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "endurance",
+      "400"
+    ]
+  },
+
+  {
+    "title": "24x50 IM pacing control",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "pace_discipline",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "IM",
+      "pacing",
+      "discipline"
+    ]
+  },
+
+  {
+    "title": "10x100 IM race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "IM",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_transition_precision",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "race_pace",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "32x25 IM sprint transitions",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 35,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "transition_speed",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "sprint",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "6x400 IM aerobic ladder",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 2400,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "aerobic_transition_stability",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "ladder",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "18x50 IM stroke frequency",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "tempo_trainer",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency_adaptation",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "IM",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "1500 smooth IM recovery",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "mobility_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "IM",
+      "recovery",
+      "mobility"
+    ]
+  }
+]

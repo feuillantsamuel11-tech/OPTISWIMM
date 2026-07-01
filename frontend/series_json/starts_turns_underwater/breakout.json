@@ -1,0 +1,162 @@
+[
+  {
+    "title": "16x25 breakout acceleration control",
+    "category": "speed",
+    "objective": "breakout_skill",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 400,
+    "rest": 45,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "velocity_transition",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breakout",
+      "acceleration",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "24x15 breakout first stroke precision",
+    "category": "speed",
+    "objective": "technical_precision",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 360,
+    "rest": 35,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "first_stroke_quality",
+    "race_specificity": "50",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breakout",
+      "first_stroke",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "Breakout frequency progression",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 800,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "frequency_transition",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breakout",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "Butterfly breakout timing hold",
+    "category": "main_set",
+    "objective": "underwater_skill",
+    "zone_code": "Z5",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 40,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "butterfly_transition",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breakout",
+      "butterfly",
+      "timing"
+    ]
+  },
+
+  {
+    "title": "Backstroke breakout control",
+    "category": "main_set",
+    "objective": "breakout_skill",
+    "zone_code": "Z5",
+    "stroke": "dos",
+    "equipment": "palmes",
+    "volume": 700,
+    "rest": 35,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "backstroke_transition",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breakout",
+      "backstroke",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "Sprint breakout neural activation",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 60,
+    "intensity_score": 10,
+    "cns_load": 4,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "explosive_breakout",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "breakout",
+      "sprint",
+      "explosive"
+    ]
+  },
+
+  {
+    "title": "1000 easy breakout recovery",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "palmes",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "smooth_transition_feel",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "breakout",
+      "recovery",
+      "feel"
+    ]
+  }
+]

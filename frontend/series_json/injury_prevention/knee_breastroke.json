@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Easy breaststroke recovery alignment",
+    "category": "recovery",
+    "objective": "knee_protection",
+    "zone_code": "Z1",
+    "stroke": "brasse",
+    "equipment": "snorkel",
+    "volume": 1600,
+    "rest": 15,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "reduced_knee_stress",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "knee",
+      "breaststroke",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "Controlled breaststroke kick progression",
+    "category": "preset",
+    "objective": "technical_stability",
+    "zone_code": "Z2",
+    "stroke": "brasse",
+    "equipment": "board",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "kick_alignment",
+    "race_specificity": "200",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "knee",
+      "kick",
+      "alignment"
+    ]
+  },
+
+  {
+    "title": "Low amplitude breaststroke timing",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "brasse",
+    "equipment": "snorkel",
+    "volume": 1400,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "reduced_joint_amplitude",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "knee",
+      "technical",
+      "control"
+    ]
+  },
+
+  {
+    "title": "Breaststroke hip mobility coordination",
+    "category": "preset",
+    "objective": "mobility_recovery",
+    "zone_code": "Z1",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "hip_knee_mobility",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "knee",
+      "mobility",
+      "hips"
+    ]
+  },
+
+  {
+    "title": "Reduced stress breaststroke aerobic",
+    "category": "main_set",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z2",
+    "stroke": "brasse",
+    "equipment": "pull",
+    "volume": 1500,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "joint_load_management",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "knee",
+      "joint",
+      "management"
+    ]
+  },
+
+  {
+    "title": "1200 smooth breaststroke loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "brasse",
+    "equipment": "snorkel",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "joint_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "knee",
+      "relaxation",
+      "breaststroke"
+    ]
+  }
+]

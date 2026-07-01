@@ -1,0 +1,231 @@
+[
+  {
+    "title": "10x200 aerobic pull",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "amplitude",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pull",
+      "distance",
+      "amplitude"
+    ]
+  },
+
+  {
+    "title": "8x150 paddles threshold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "catch_strength",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "paddles",
+      "catch",
+      "strength"
+    ]
+  },
+
+  {
+    "title": "20x100 pull VO2",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "holding_power",
+    "race_specificity": "800",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "pull",
+      "vo2",
+      "power"
+    ]
+  },
+
+  {
+    "title": "12x50 snorkel pull technique",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 600,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "alignment",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "beginner",
+    "tags": [
+      "snorkel",
+      "alignment",
+      "pull"
+    ]
+  },
+
+  {
+    "title": "6x300 pull threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1800,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "holding_form",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "pull",
+      "holding",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "16x50 paddles race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "race_rhythm",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "paddles",
+      "race_pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "4x500 long pull aerobic",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 40,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "distance_hold",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "pull",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "24x50 pull frequency",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency",
+    "race_specificity": "200",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pull",
+      "frequency",
+      "vo2"
+    ]
+  },
+
+  {
+    "title": "14x75 pull sprint build",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1050,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "power_build",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "paddles",
+      "speed",
+      "power"
+    ]
+  },
+
+  {
+    "title": "18x50 recovery pull",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 900,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "pull",
+      "easy"
+    ]
+  }
+]

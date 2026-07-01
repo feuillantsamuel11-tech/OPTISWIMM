@@ -1,0 +1,43 @@
+[
+  {
+    "title": "8x15 départ plongé explosif",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z6",
+    "distance": 15,
+    "equipment": "none",
+    "objective": "neural_activation",
+    "difficulty": 3,
+    "cns_fatigue": 2,
+    "description": "Activation nerveuse départ compétition",
+    "block_type": "activation",
+    "season_phase": 4,
+    "swimmer_level": 4,
+    "min_age": 14,
+    "max_age": 99,
+    "volume": 120,
+    "rest_seconds": 45,
+    "intensity_score": 7
+  },
+
+  {
+    "title": "10x25 underwater sprint",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z6",
+    "distance": 25,
+    "equipment": "none",
+    "objective": "neural_activation",
+    "difficulty": 4,
+    "cns_fatigue": 3,
+    "description": "Activation vitesse underwater",
+    "block_type": "activation",
+    "season_phase": 4,
+    "swimmer_level": 4,
+    "min_age": 15,
+    "max_age": 99,
+    "volume": 250,
+    "rest_seconds": 40,
+    "intensity_score": 8
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "20x50 stroke rate progression",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "stroke_rate_control",
+    "race_specificity": "100",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "tempo",
+      "stroke_rate",
+      "frequency"
+    ]
+  },
+
+  {
+    "title": "12x100 DPS efficiency hold",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "distance_per_stroke",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "dps",
+      "efficiency",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "24x25 sprint frequency max",
+    "category": "speed",
+    "objective": "tempo_frequency",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 35,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "max_frequency",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "sprint",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "8x200 frequency endurance",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency_stability",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "frequency",
+      "endurance",
+      "400"
+    ]
+  },
+
+  {
+    "title": "16x75 descending stroke count",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "stroke_efficiency",
+    "race_specificity": "800",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "stroke_count",
+      "efficiency",
+      "control"
+    ]
+  },
+
+  {
+    "title": "10x150 race frequency precision",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1500,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "race_precision",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "precision",
+      "race_pace",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "18x50 fatigue frequency hold",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "fatigue_stability",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "fatigue",
+      "frequency",
+      "stability"
+    ]
+  },
+
+  {
+    "title": "6x300 aerobic rhythm hold",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1800,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "rhythm_consistency",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "rhythm",
+      "consistency",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "14x50 backstroke frequency control",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z4",
+    "stroke": "dos",
+    "equipment": "tempo_trainer",
+    "volume": 700,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "backstroke_rate",
+    "race_specificity": "100",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "backstroke",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "1000 smooth DPS reset",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "dps_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "dps",
+      "recovery",
+      "reset"
+    ]
+  }
+]

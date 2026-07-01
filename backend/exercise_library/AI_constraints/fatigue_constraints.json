@@ -1,0 +1,101 @@
+[
+  {
+    "constraint_name": "avoid_high_intensity_after_extreme_fatigue",
+    "trigger": {
+      "fatigue_level": "extreme"
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "speed",
+        "lactate_tolerance",
+        "competition"
+      ]
+    },
+    "recommended_replacement": [
+      "adaptive_recovery",
+      "aerobic_technical",
+      "recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "reduce_volume_after_high_weekly_load",
+    "trigger": {
+      "weekly_training_load_above": 90000
+    },
+    "restriction": {
+      "max_volume_factor": 0.75
+    },
+    "recommended_replacement": [
+      "recovery",
+      "technical_precision"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "protect_after_multiple_high_intensity_days",
+    "trigger": {
+      "high_intensity_days_above": 3
+    },
+    "restriction": {
+      "forbidden_zone_codes": [
+        "Z6",
+        "Z7"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_power",
+      "adaptive_recovery"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "mandatory_recovery_after_extreme_microcycle",
+    "trigger": {
+      "microcycle_load_above": 120000
+    },
+    "restriction": {
+      "force_recovery_day": true
+    },
+    "recommended_replacement": [
+      "recovery",
+      "mobility_recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "avoid_double_lactate_accumulation",
+    "trigger": {
+      "previous_session_objective": "lactate_tolerance"
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "lactate_tolerance"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_power",
+      "technical_precision"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "limit_training_density_under_fatigue",
+    "trigger": {
+      "fatigue_score_above": 50000
+    },
+    "restriction": {
+      "min_rest_multiplier": 1.5
+    },
+    "recommended_replacement": [
+      "recovery",
+      "low_intensity_technical"
+    ],
+    "priority": "moderate"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "600 progressive swim",
+    "category": "warmup",
+    "objective": "general_activation",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "progressive_activation",
+    "race_specificity": "all",
+    "energy_system": "warmup",
+    "difficulty_level": "beginner",
+    "tags": [
+      "warmup",
+      "progressive",
+      "activation"
+    ]
+  },
+
+  {
+    "title": "12x50 drill build",
+    "category": "warmup",
+    "objective": "technical_activation",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 600,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "technique",
+    "race_specificity": "200",
+    "energy_system": "warmup",
+    "difficulty_level": "beginner",
+    "tags": [
+      "drill",
+      "snorkel",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "8x100 aerobic build",
+    "category": "warmup",
+    "objective": "aerobic_activation",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "aerobic_prep",
+    "race_specificity": "400",
+    "energy_system": "warmup",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "aerobic",
+      "build",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "16x25 neural activation",
+    "category": "warmup",
+    "objective": "speed_activation",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 400,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "neural_prep",
+    "race_specificity": "50",
+    "energy_system": "warmup",
+    "difficulty_level": "advanced",
+    "tags": [
+      "neural",
+      "activation",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "10x50 underwater prep",
+    "category": "warmup",
+    "objective": "underwater_activation",
+    "zone_code": "Z3",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "underwater",
+    "race_specificity": "100",
+    "energy_system": "warmup",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "palmes",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "20x25 breathing prep",
+    "category": "warmup",
+    "objective": "respiratory_activation",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 500,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "breathing_control",
+    "race_specificity": "distance",
+    "energy_system": "warmup",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "breathing",
+      "respiration",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "4x200 pull activation",
+    "category": "warmup",
+    "objective": "pull_activation",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "catch_prep",
+    "race_specificity": "800",
+    "energy_system": "warmup",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "pull",
+      "catch",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "12x50 race pace prep",
+    "category": "warmup",
+    "objective": "race_activation",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "race_rhythm",
+    "race_specificity": "100",
+    "energy_system": "warmup",
+    "difficulty_level": "advanced",
+    "tags": [
+      "race_pace",
+      "tempo",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "8x75 IM mobility prep",
+    "category": "warmup",
+    "objective": "mobility_activation",
+    "zone_code": "Z2",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "mobility",
+    "race_specificity": "IM",
+    "energy_system": "warmup",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "IM",
+      "mobility",
+      "warmup"
+    ]
+  },
+
+  {
+    "title": "24x25 progressive sprint prep",
+    "category": "warmup",
+    "objective": "sprint_activation",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "sprint_prep",
+    "race_specificity": "50",
+    "energy_system": "warmup",
+    "difficulty_level": "elite",
+    "tags": [
+      "sprint",
+      "activation",
+      "50"
+    ]
+  }
+]

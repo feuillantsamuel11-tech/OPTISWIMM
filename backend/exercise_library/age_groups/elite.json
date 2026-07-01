@@ -1,0 +1,185 @@
+[
+  {
+    "title": "30x100 elite threshold density",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 3000,
+    "rest": 10,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "threshold_density_precision",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "threshold",
+      "density"
+    ]
+  },
+
+  {
+    "title": "16x200 elite aerobic power",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3200,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "aerobic_strength",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "aerobic",
+      "strength"
+    ]
+  },
+
+  {
+    "title": "24x50 elite race pace precision",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "race_execution_precision",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "race_pace",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "20x75 elite lactate resistance",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 60,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "lactate_management",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "lactate",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "40x25 elite neural sprint",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 1000,
+    "rest": 50,
+    "intensity_score": 10,
+    "cns_load": 4,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "pure_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "speed",
+      "velocity"
+    ]
+  },
+
+  {
+    "title": "10x400 elite threshold endurance",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 4000,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "fatigue_stability",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "threshold",
+      "endurance"
+    ]
+  },
+
+  {
+    "title": "Broken 800 elite competition simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2400,
+    "rest": 120,
+    "intensity_score": 10,
+    "cns_load": 4,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "competition_precision",
+    "race_specificity": "800",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "elite",
+      "competition",
+      "800"
+    ]
+  },
+
+  {
+    "title": "3000 elite active recovery",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_reset",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "advanced",
+    "tags": [
+      "elite",
+      "recovery",
+      "flush"
+    ]
+  }
+]

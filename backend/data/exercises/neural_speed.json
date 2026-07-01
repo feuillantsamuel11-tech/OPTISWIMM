@@ -1,0 +1,43 @@
+[
+{
+"title": "10x15 sprint neural",
+"category": "speed",
+"stroke": "crawl",
+"zone_code": "Z7",
+"distance": 15,
+"equipment": "none",
+"objective": "neural_speed",
+"difficulty": 4,
+"cns_fatigue": 2,
+"description": "Sprint neural récupération complète",
+"block_type": "speed",
+"season_phase": 3,
+"swimmer_level": 4,
+"min_age": 15,
+"max_age": 99,
+"volume": 150,
+"rest_seconds": 60,
+"intensity_score": 8
+},
+
+{
+"title": "8x25 vitesse fréquence max",
+"category": "speed",
+"stroke": "crawl",
+"zone_code": "Z7",
+"distance": 25,
+"equipment": "none",
+"objective": "neural_speed",
+"difficulty": 5,
+"cns_fatigue": 3,
+"description": "Travail vitesse fréquence maximale",
+"block_type": "speed",
+"season_phase": 4,
+"swimmer_level": 4,
+"min_age": 16,
+"max_age": 99,
+"volume": 200,
+"rest_seconds": 75,
+"intensity_score": 9
+}
+]

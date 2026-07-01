@@ -1,0 +1,43 @@
+[
+  {
+    "title": "16x50 race pace 200",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z5",
+    "distance": 50,
+    "equipment": "none",
+    "objective": "race_pace",
+    "difficulty": 4,
+    "cns_fatigue": 2,
+    "description": "Allure 200 compétition",
+    "block_type": "main_set",
+    "season_phase": 4,
+    "swimmer_level": 4,
+    "min_age": 14,
+    "max_age": 99,
+    "volume": 800,
+    "rest_seconds": 30,
+    "intensity_score": 9
+  },
+
+  {
+    "title": "24x25 race pace 100",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z7",
+    "distance": 25,
+    "equipment": "none",
+    "objective": "race_pace",
+    "difficulty": 5,
+    "cns_fatigue": 3,
+    "description": "Sprint spécifique 100m",
+    "block_type": "speed",
+    "season_phase": 4,
+    "swimmer_level": 5,
+    "min_age": 16,
+    "max_age": 99,
+    "volume": 600,
+    "rest_seconds": 45,
+    "intensity_score": 10
+  }
+]

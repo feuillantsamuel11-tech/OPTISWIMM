@@ -1,0 +1,43 @@
+[
+  {
+    "title": "12x50 éducatifs catch",
+    "category": "preset",
+    "stroke": "crawl",
+    "zone_code": "Z2",
+    "distance": 50,
+    "equipment": "pull",
+    "objective": "technical_skill",
+    "difficulty": 2,
+    "cns_fatigue": 1,
+    "description": "Travail prise d'appui",
+    "block_type": "preset",
+    "season_phase": 1,
+    "swimmer_level": 2,
+    "min_age": 10,
+    "max_age": 99,
+    "volume": 600,
+    "rest_seconds": 15,
+    "intensity_score": 3
+  },
+
+  {
+    "title": "8x100 technique amplitude",
+    "category": "preset",
+    "stroke": "crawl",
+    "zone_code": "Z2",
+    "distance": 100,
+    "equipment": "none",
+    "objective": "technical_skill",
+    "difficulty": 2,
+    "cns_fatigue": 1,
+    "description": "Nage économique amplitude maximale",
+    "block_type": "preset",
+    "season_phase": 2,
+    "swimmer_level": 3,
+    "min_age": 11,
+    "max_age": 99,
+    "volume": 800,
+    "rest_seconds": 20,
+    "intensity_score": 3
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "20x100 freestyle aerobic rhythm",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "freestyle_rhythm",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "freestyle",
+      "aerobic",
+      "rhythm"
+    ]
+  },
+
+  {
+    "title": "12x150 freestyle threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1800,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "pace_control",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "freestyle",
+      "threshold",
+      "pace"
+    ]
+  },
+
+  {
+    "title": "24x50 freestyle frequency build",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_rate_control",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "freestyle",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "16x50 freestyle sprint hold",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "max_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "freestyle",
+      "sprint",
+      "velocity"
+    ]
+  },
+
+  {
+    "title": "8x300 freestyle aerobic endurance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2400,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "distance_efficiency",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "freestyle",
+      "distance",
+      "pull"
+    ]
+  },
+
+  {
+    "title": "10x100 freestyle race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "freestyle",
+      "race_pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "6x400 freestyle threshold progression",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2400,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_stability",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "freestyle",
+      "threshold",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "18x75 freestyle lactate tolerance",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1350,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "fatigue_resistance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "freestyle",
+      "lactate",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "Freestyle DPS control progression",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 0,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "distance_per_stroke",
+    "race_specificity": "800",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "freestyle",
+      "DPS",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "1500 easy freestyle loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "freestyle",
+      "recovery",
+      "easy"
+    ]
+  }
+]

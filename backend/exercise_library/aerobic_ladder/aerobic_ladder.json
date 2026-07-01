@@ -1,0 +1,231 @@
+[
+  {
+    "title": "100-200-300-400-500 aerobic ladder",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "progressive_accumulation",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "ladder",
+      "aerobic",
+      "progression"
+    ]
+  },
+
+  {
+    "title": "500-400-300-200-100 descending control",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1500,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "descending_pacing",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "descending",
+      "ladder",
+      "pacing"
+    ]
+  },
+
+  {
+    "title": "100-200-300-400-300-200-100 pyramid",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "rhythm_transition",
+    "race_specificity": "800",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pyramid",
+      "transition",
+      "endurance"
+    ]
+  },
+
+  {
+    "title": "4x ladder VO2 progression",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2400,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "oxygen_accumulation",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "vo2",
+      "ladder",
+      "accumulation"
+    ]
+  },
+
+  {
+    "title": "Sprint ladder 25-50-75-100",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 45,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "speed_transition",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "advanced",
+    "tags": [
+      "sprint",
+      "ladder",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "Broken aerobic ladder with pull",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3000,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "continuous_efficiency",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "pull",
+      "distance",
+      "ladder"
+    ]
+  },
+
+  {
+    "title": "200-400-600-400-200 threshold ladder",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1800,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "threshold_stability",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "threshold",
+      "ladder",
+      "stability"
+    ]
+  },
+
+  {
+    "title": "25-50-75 repeated sprint pyramid",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 900,
+    "rest": 40,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "sprint_accumulation",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "sprint",
+      "pyramid",
+      "neuromuscular"
+    ]
+  },
+
+  {
+    "title": "Long aerobic ladder hold",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 4000,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "mental_endurance",
+    "race_specificity": "10k",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "mental",
+      "distance",
+      "ladder"
+    ]
+  },
+
+  {
+    "title": "1200 smooth ladder loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "smooth_transition",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "ladder",
+      "smooth"
+    ]
+  }
+]

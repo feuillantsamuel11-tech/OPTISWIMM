@@ -1,0 +1,22 @@
+[
+  {
+    "title": "200 dos récupération",
+    "category": "cooldown",
+    "stroke": "dos",
+    "zone_code": "Z1",
+    "distance": 200,
+    "equipment": "none",
+    "objective": "recovery",
+    "difficulty": 1,
+    "cns_fatigue": 1,
+    "description": "Retour au calme dos souple",
+    "block_type": "cooldown",
+    "season_phase": 1,
+    "swimmer_level": 1,
+    "min_age": 10,
+    "max_age": 99,
+    "volume": 200,
+    "rest_seconds": 0,
+    "intensity_score": 1
+  }
+]

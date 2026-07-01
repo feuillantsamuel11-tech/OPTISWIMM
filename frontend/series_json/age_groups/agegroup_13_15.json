@@ -1,0 +1,185 @@
+[
+  {
+    "title": "16x100 aerobic progression",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "aerobic_development",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "aerobic",
+      "development"
+    ]
+  },
+
+  {
+    "title": "12x75 freestyle technique hold",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 0,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "stroke_efficiency",
+    "race_specificity": "200",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "technique",
+      "freestyle"
+    ]
+  },
+
+  {
+    "title": "20x50 aerobic frequency control",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "stroke_rate_learning",
+    "race_specificity": "100",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "8x200 threshold introduction",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1600,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "threshold_learning",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "threshold",
+      "learning"
+    ]
+  },
+
+  {
+    "title": "24x25 controlled sprint work",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "speed_coordination",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "speed",
+      "coordination"
+    ]
+  },
+
+  {
+    "title": "IM aerobic transition progression",
+    "category": "main_set",
+    "objective": "coordination",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "multi_stroke_control",
+    "race_specificity": "IM",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "IM",
+      "coordination"
+    ]
+  },
+
+  {
+    "title": "10x100 race pace introduction",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "pace_awareness",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "13_15",
+      "race_pace",
+      "awareness"
+    ]
+  },
+
+  {
+    "title": "1500 smooth aerobic recovery",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "13_15",
+      "recovery",
+      "easy"
+    ]
+  }
+]

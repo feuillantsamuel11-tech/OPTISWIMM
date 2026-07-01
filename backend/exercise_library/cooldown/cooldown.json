@@ -1,0 +1,231 @@
+[
+  {
+    "title": "400 easy recovery swim",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 400,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "cooldown",
+      "easy",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "12x50 relaxed technique",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 600,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "technique_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "snorkel",
+      "technique",
+      "cooldown"
+    ]
+  },
+
+  {
+    "title": "800 pull recovery",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 800,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "upper_body_relaxation",
+    "race_specificity": "distance",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "pull",
+      "recovery",
+      "easy"
+    ]
+  },
+
+  {
+    "title": "20x25 breathing reset",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 500,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "breathing_control",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "breathing",
+      "recovery",
+      "snorkel"
+    ]
+  },
+
+  {
+    "title": "600 easy backstroke loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "dos",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "mobility",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "backstroke",
+      "mobility",
+      "cooldown"
+    ]
+  },
+
+  {
+    "title": "16x50 relaxed kick",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "board",
+    "volume": 800,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "leg_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kick",
+      "easy",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "1000 progressive loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "parasympathetic_reset",
+    "race_specificity": "distance",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "progressive",
+      "relaxation",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "10x100 recovery IM",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "mobility_balance",
+    "race_specificity": "IM",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "IM",
+      "mobility",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "24x25 relaxed underwater",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "underwater_relaxation",
+    "race_specificity": "50",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "underwater",
+      "relaxation",
+      "cooldown"
+    ]
+  },
+
+  {
+    "title": "1500 aerobic recovery swim",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "long_recovery",
+    "race_specificity": "open_water",
+    "energy_system": "recovery",
+    "difficulty_level": "advanced",
+    "tags": [
+      "distance",
+      "recovery",
+      "open_water"
+    ]
+  }
+]

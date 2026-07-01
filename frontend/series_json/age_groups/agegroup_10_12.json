@@ -1,0 +1,185 @@
+[
+  {
+    "title": "12x50 freestyle technique rhythm",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 600,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "body_alignment",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "technique",
+      "alignment"
+    ]
+  },
+
+  {
+    "title": "16x25 kick coordination",
+    "category": "preset",
+    "objective": "coordination",
+    "zone_code": "Z2",
+    "stroke": "IM",
+    "equipment": "board",
+    "volume": 400,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "kick_control",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "coordination",
+      "kick"
+    ]
+  },
+
+  {
+    "title": "8x100 aerobic easy swim",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "aerobic_base",
+    "race_specificity": "all",
+    "energy_system": "aerobic",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "aerobic",
+      "easy"
+    ]
+  },
+
+  {
+    "title": "20x25 underwater dolphin fun",
+    "category": "speed",
+    "objective": "underwater_skill",
+    "zone_code": "Z3",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "underwater_coordination",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "kids",
+      "underwater",
+      "fun"
+    ]
+  },
+
+  {
+    "title": "IM transitions basic progression",
+    "category": "main_set",
+    "objective": "coordination",
+    "zone_code": "Z2",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "stroke_transition",
+    "race_specificity": "IM",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "IM",
+      "coordination"
+    ]
+  },
+
+  {
+    "title": "10x50 freestyle build",
+    "category": "main_set",
+    "objective": "speed_awareness",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 500,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "speed_control",
+    "race_specificity": "50",
+    "energy_system": "aerobic",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "speed",
+      "control"
+    ]
+  },
+
+  {
+    "title": "6x75 mixed strokes aerobic",
+    "category": "main_set",
+    "objective": "stroke_diversity",
+    "zone_code": "Z2",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 450,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "multi_stroke_learning",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "multi_stroke",
+      "learning"
+    ]
+  },
+
+  {
+    "title": "1000 easy recovery swim",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kids",
+      "recovery",
+      "easy"
+    ]
+  }
+]

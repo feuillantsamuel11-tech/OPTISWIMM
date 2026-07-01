@@ -1,0 +1,185 @@
+[
+  {
+    "title": "24x100 senior threshold progression",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2400,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_density",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "senior",
+      "threshold",
+      "density"
+    ]
+  },
+
+  {
+    "title": "12x200 aerobic power hold",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2400,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "aerobic_strength",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "senior",
+      "aerobic",
+      "strength"
+    ]
+  },
+
+  {
+    "title": "20x50 race pace precision",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pace_precision",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "senior",
+      "race_pace",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "18x75 lactate resistance",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1350,
+    "rest": 50,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "fatigue_resistance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "senior",
+      "lactate",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "32x25 neural sprint activation",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 45,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "max_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "senior",
+      "speed",
+      "neural"
+    ]
+  },
+
+  {
+    "title": "8x300 threshold endurance",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2400,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_resistance",
+    "race_specificity": "800",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "senior",
+      "threshold",
+      "800"
+    ]
+  },
+
+  {
+    "title": "Broken 400 competition simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1600,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "competition_execution",
+    "race_specificity": "400",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "senior",
+      "competition",
+      "400"
+    ]
+  },
+
+  {
+    "title": "2500 aerobic recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "senior",
+      "recovery",
+      "easy"
+    ]
+  }
+]

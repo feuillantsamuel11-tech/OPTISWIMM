@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x50 aerobic kick",
+    "category": "main_set",
+    "objective": "aerobic",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "board",
+    "volume": 800,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "kick_endurance",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "kick",
+      "aerobic",
+      "board"
+    ]
+  },
+
+  {
+    "title": "24x25 sprint kick",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 30,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "explosive_kick",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "kick",
+      "sprint",
+      "palmes"
+    ]
+  },
+
+  {
+    "title": "10x100 threshold kick",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "board",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "kick_strength",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "kick",
+      "threshold",
+      "strength"
+    ]
+  },
+
+  {
+    "title": "20x25 underwater dolphin",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 35,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "underwater",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "dolphin",
+      "kick"
+    ]
+  },
+
+  {
+    "title": "8x200 pull kick combo",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "coordination",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "kick",
+      "pull",
+      "coordination"
+    ]
+  },
+
+  {
+    "title": "12x50 vertical kick",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 40,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "vertical_power",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "vertical",
+      "kick",
+      "power"
+    ]
+  },
+
+  {
+    "title": "30x25 easy kick recovery",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "board",
+    "volume": 750,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "kick",
+      "recovery",
+      "easy"
+    ]
+  },
+
+  {
+    "title": "14x50 race pace kick",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 700,
+    "rest": 25,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "race_rhythm",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "kick",
+      "race_pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "6x300 aerobic kick hold",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "board",
+    "volume": 1800,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "holding_kick",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "kick",
+      "distance",
+      "holding"
+    ]
+  },
+
+  {
+    "title": "18x50 kick frequency",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 900,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency",
+    "race_specificity": "200",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "kick",
+      "frequency",
+      "vo2"
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "8x200 negative split control",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "negative_split",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "negative_split",
+      "pacing",
+      "control"
+    ]
+  },
+
+  {
+    "title": "12x100 controlled opening speed",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "opening_control",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "opening",
+      "pace",
+      "discipline"
+    ]
+  },
+
+  {
+    "title": "6x300 race strategy progression",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1800,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "race_strategy",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "strategy",
+      "distance",
+      "pacing"
+    ]
+  },
+
+  {
+    "title": "16x50 pressure pacing control",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stress_control",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pressure",
+      "control",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "4x400 emotional pacing discipline",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 45,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "emotional_control",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "emotional",
+      "discipline",
+      "400"
+    ]
+  },
+
+  {
+    "title": "20x50 perception effort pacing",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "effort_perception",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "effort",
+      "perception",
+      "control"
+    ]
+  },
+
+  {
+    "title": "10x100 exact pace repetition",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "pace_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "precision",
+      "pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "8x150 fatigue pacing maintenance",
+    "category": "main_set",
+    "objective": "mental_pacing",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "fatigue_control",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "fatigue",
+      "pacing",
+      "control"
+    ]
+  },
+
+  {
+    "title": "24x25 calm sprint execution",
+    "category": "speed",
+    "objective": "mental_pacing",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "calm_execution",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "calm",
+      "sprint",
+      "execution"
+    ]
+  },
+
+  {
+    "title": "1500 smooth recovery focus",
+    "category": "cooldown",
+    "objective": "mental_pacing",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "mental_reset",
+    "race_specificity": "distance",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "mental",
+      "reset",
+      "recovery"
+    ]
+  }
+]

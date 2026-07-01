@@ -1,0 +1,79 @@
+[
+  {
+    "constraint_name": "force_recovery_after_extreme_microcycle",
+    "trigger": {
+      "microcycle_load_above": 120000
+    },
+    "restriction": {
+      "force_recovery_day": true
+    },
+    "recommended_replacement": [
+      "adaptive_recovery",
+      "mobility_recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "increase_recovery_under_high_fatigue",
+    "trigger": {
+      "fatigue_level": "high"
+    },
+    "restriction": {
+      "max_volume_factor": 0.6
+    },
+    "recommended_replacement": [
+      "recovery",
+      "easy_aerobic"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "protect_after_competition",
+    "trigger": {
+      "previous_session_objective": "competition"
+    },
+    "restriction": {
+      "max_intensity_score": 4
+    },
+    "recommended_replacement": [
+      "technical_relaxation",
+      "recovery"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "mandatory_easy_day_after_double_session",
+    "trigger": {
+      "double_session_day": true
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "speed",
+        "lactate_tolerance"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_power",
+      "adaptive_recovery"
+    ],
+    "priority": "moderate"
+  },
+
+  {
+    "constraint_name": "reduce_density_under_recovery_need",
+    "trigger": {
+      "recovery_need_score_above": 7
+    },
+    "restriction": {
+      "min_rest_multiplier": 1.5
+    },
+    "recommended_replacement": [
+      "easy_aerobic",
+      "technical_precision"
+    ],
+    "priority": "moderate"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x50 catch-up drill",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 10,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "catch",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "drill",
+      "catch",
+      "crawl"
+    ]
+  },
+
+  {
+    "title": "12x50 fingertip drag",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 10,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "recovery_phase",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "drill",
+      "recovery",
+      "crawl"
+    ]
+  },
+
+  {
+    "title": "10x100 single arm drill",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "alignment",
+    "race_specificity": "200",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "single_arm",
+      "alignment",
+      "snorkel"
+    ]
+  },
+
+  {
+    "title": "20x25 sculling progression",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 500,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "feel_water",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "sculling",
+      "feel_water",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "8x75 breathing pattern drill",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "breathing",
+    "race_specificity": "400",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "breathing",
+      "pattern",
+      "drill"
+    ]
+  },
+
+  {
+    "title": "24x25 underwater dolphin drill",
+    "category": "preset",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "underwater",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "dolphin",
+      "palmes"
+    ]
+  },
+
+  {
+    "title": "12x50 DPS control drill",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "dps",
+    "race_specificity": "1500",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "dps",
+      "distance",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "16x50 body alignment drill",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 800,
+    "rest": 10,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "alignment",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "alignment",
+      "snorkel",
+      "drill"
+    ]
+  },
+
+  {
+    "title": "10x100 IM transition drill",
+    "category": "preset",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "transitions",
+    "race_specificity": "IM",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "IM",
+      "transition",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "18x50 stroke rate drill",
+    "category": "preset",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 900,
+    "rest": 10,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "stroke_rate",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "stroke_rate",
+      "tempo",
+      "speed"
+    ]
+  }
+]

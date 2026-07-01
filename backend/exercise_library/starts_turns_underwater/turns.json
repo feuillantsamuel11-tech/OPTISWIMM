@@ -1,0 +1,162 @@
+[
+  {
+    "title": "24x25 flip turn acceleration",
+    "category": "speed",
+    "objective": "turn_speed",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 35,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "wall_explosion",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turns",
+      "flip_turn",
+      "acceleration"
+    ]
+  },
+
+  {
+    "title": "16x50 turn breakout precision",
+    "category": "main_set",
+    "objective": "breakout_skill",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "breakout_timing",
+    "race_specificity": "200",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turns",
+      "breakout",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "Repeated turn fatigue control",
+    "category": "main_set",
+    "objective": "turn_efficiency",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "fatigue_turn_quality",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turns",
+      "fatigue",
+      "efficiency"
+    ]
+  },
+
+  {
+    "title": "Backstroke turn transition control",
+    "category": "preset",
+    "objective": "technical_precision",
+    "zone_code": "Z4",
+    "stroke": "dos",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 35,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "rotation_transition",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turns",
+      "backstroke",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "IM turn coordination progression",
+    "category": "main_set",
+    "objective": "coordination",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_transition_turns",
+    "race_specificity": "IM",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turns",
+      "IM",
+      "coordination"
+    ]
+  },
+
+  {
+    "title": "Sprint turn neural activation",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 500,
+    "rest": 60,
+    "intensity_score": 10,
+    "cns_load": 4,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "explosive_turn_push",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "turns",
+      "sprint",
+      "explosive"
+    ]
+  },
+
+  {
+    "title": "1200 easy turn recovery swim",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "relaxed_turn_feel",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "turns",
+      "recovery",
+      "feel"
+    ]
+  }
+]

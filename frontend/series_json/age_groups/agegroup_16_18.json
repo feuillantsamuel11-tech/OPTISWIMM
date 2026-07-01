@@ -1,0 +1,185 @@
+[
+  {
+    "title": "20x100 aerobic threshold progression",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "threshold_stability",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "16_18",
+      "threshold",
+      "400"
+    ]
+  },
+
+  {
+    "title": "10x200 aerobic endurance build",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "aerobic_strength",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "16_18",
+      "aerobic",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "24x50 race pace frequency",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_rate_stability",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "16_18",
+      "frequency",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "16x75 lactate tolerance progression",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 45,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "lactate_adaptation",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "advanced",
+    "tags": [
+      "16_18",
+      "lactate",
+      "adaptation"
+    ]
+  },
+
+  {
+    "title": "32x25 sprint neural activation",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 40,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "max_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "16_18",
+      "speed",
+      "neural"
+    ]
+  },
+
+  {
+    "title": "IM threshold transition control",
+    "category": "main_set",
+    "objective": "coordination",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1800,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "transition_precision",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "16_18",
+      "IM",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "Broken 200 race simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 75,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "competition_execution",
+    "race_specificity": "200",
+    "energy_system": "competition",
+    "difficulty_level": "advanced",
+    "tags": [
+      "16_18",
+      "competition",
+      "200"
+    ]
+  },
+
+  {
+    "title": "2000 aerobic recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_reset",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "16_18",
+      "recovery",
+      "easy"
+    ]
+  }
+]

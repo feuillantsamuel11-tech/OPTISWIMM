@@ -1,0 +1,43 @@
+[
+  {
+    "title": "16x25 max velocity",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z7",
+    "distance": 25,
+    "equipment": "none",
+    "objective": "max_velocity",
+    "difficulty": 5,
+    "cns_fatigue": 4,
+    "description": "Travail vitesse maximale récupération complète",
+    "block_type": "speed",
+    "season_phase": 4,
+    "swimmer_level": 5,
+    "min_age": 16,
+    "max_age": 99,
+    "volume": 400,
+    "rest_seconds": 60,
+    "intensity_score": 10
+  },
+
+  {
+    "title": "8x50 sprint max",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z7",
+    "distance": 50,
+    "equipment": "none",
+    "objective": "max_velocity",
+    "difficulty": 5,
+    "cns_fatigue": 4,
+    "description": "Sprint maximal récupération longue",
+    "block_type": "speed",
+    "season_phase": 4,
+    "swimmer_level": 5,
+    "min_age": 16,
+    "max_age": 99,
+    "volume": 400,
+    "rest_seconds": 90,
+    "intensity_score": 10
+  }
+]

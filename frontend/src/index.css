@@ -1,0 +1,467 @@
+
+body {
+
+  margin: 0;
+
+  background:
+  linear-gradient(
+    180deg,
+    #020617,
+    #0f172a
+  );
+
+  color: white;
+
+  font-family:
+  Inter,
+  Arial,
+  sans-serif;
+}
+
+.app {
+
+  padding: 32px;
+}
+
+.topbar {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 28px;
+}
+
+.topbar h1 {
+
+  margin: 0;
+
+  font-size: 54px;
+
+  color: #38bdf8;
+}
+
+.topbar p {
+
+  color: #94a3b8;
+
+  margin-top: 8px;
+}
+
+button {
+
+  background: #38bdf8;
+
+  color: black;
+
+  border: none;
+
+  padding: 16px 24px;
+
+  border-radius: 14px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+
+  transform: scale(1.04);
+}
+
+.dashboardGrid {
+
+  display: grid;
+
+  grid-template-columns:
+  2fr 1fr;
+
+  gap: 24px;
+}
+
+.heroCard {
+
+  background:
+  linear-gradient(
+    135deg,
+    rgba(15,23,42,0.95),
+    rgba(30,41,59,0.95)
+  );
+
+  border-radius: 28px;
+
+  padding: 28px;
+
+  border:
+  1px solid #1e293b;
+
+  margin-bottom: 24px;
+}
+
+.heroTop {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.athleteName {
+
+  font-size: 42px;
+
+  font-weight: 800;
+}
+
+.athleteMeta {
+
+  margin-top: 8px;
+
+  color: #94a3b8;
+}
+
+.readinessCircle {
+
+  width: 90px;
+
+  height: 90px;
+
+  border-radius: 50%;
+
+  background:
+  linear-gradient(
+    135deg,
+    #38bdf8,
+    #22c55e
+  );
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 32px;
+
+  font-weight: bold;
+
+  color: black;
+}
+
+.statusRow {
+
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 24px;
+
+  flex-wrap: wrap;
+}
+
+.statusBadge {
+
+  padding: 10px 16px;
+
+  border-radius: 999px;
+
+  background:
+  rgba(
+    56,
+    189,
+    248,
+    0.15
+  );
+
+  border:
+  1px solid rgba(
+    56,
+    189,
+    248,
+    0.4
+  );
+
+  color: #38bdf8;
+
+  font-size: 13px;
+
+  font-weight: bold;
+}
+
+.metricsGrid {
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(4, 1fr);
+
+  gap: 16px;
+
+  margin-bottom: 24px;
+}
+
+.metricCard {
+
+  background:
+  rgba(
+    15,
+    23,
+    42,
+    0.85
+  );
+
+  border-radius: 20px;
+
+  padding: 22px;
+
+  border:
+  1px solid #1e293b;
+}
+
+.metricCard span {
+
+  color: #94a3b8;
+
+  display: block;
+
+  margin-bottom: 12px;
+}
+
+.metricCard strong {
+
+  font-size: 32px;
+}
+
+.mainSetCard {
+
+  background:
+  linear-gradient(
+    135deg,
+    rgba(30,41,59,0.95),
+    rgba(15,23,42,0.95)
+  );
+
+  border-radius: 28px;
+
+  padding: 28px;
+
+  border:
+  1px solid rgba(
+    239,
+    68,
+    68,
+    0.25
+  );
+}
+
+.card {
+
+  background:
+  rgba(
+    15,
+    23,
+    42,
+    0.9
+  );
+
+  border-radius: 22px;
+
+  padding: 24px;
+
+  border:
+  1px solid #1e293b;
+
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+
+  font-size: 26px;
+
+  font-weight: 800;
+
+  margin-bottom: 22px;
+
+  color: #38bdf8;
+}
+
+.exercise {
+
+  background: #111827;
+
+  border-radius: 18px;
+
+  padding: 20px;
+
+  margin-bottom: 18px;
+
+  border-left:
+  5px solid #38bdf8;
+
+  transition: 0.2s;
+}
+
+.exercise:hover {
+
+  transform:
+  translateY(-4px);
+
+  box-shadow:
+  0 14px 28px rgba(
+    0,
+    0,
+    0,
+    0.35
+  );
+}
+
+.exerciseTop {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.exerciseTop h3 {
+
+  margin: 0;
+
+  font-size: 20px;
+}
+
+.exerciseBadges {
+
+  display: flex;
+
+  gap: 10px;
+}
+
+.zone {
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+  color: white;
+}
+
+.cnsBadge {
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+  color: white;
+}
+
+.exerciseMetrics {
+
+  display: flex;
+
+  gap: 30px;
+
+  margin-top: 18px;
+}
+
+.exerciseMetrics div {
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.exerciseMetrics strong {
+
+  font-size: 20px;
+}
+
+.exerciseMetrics span {
+
+  color: #94a3b8;
+
+  margin-top: 4px;
+
+  font-size: 13px;
+}
+
+.exerciseInfo {
+
+  margin-top: 18px;
+
+  color: #cbd5e1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.empty {
+
+  color: #64748b;
+}
+
+@media (
+  max-width: 1200px
+) {
+
+  .dashboardGrid {
+
+    grid-template-columns:
+    1fr;
+  }
+}
+
+@media (
+  max-width: 900px
+) {
+
+  .metricsGrid {
+
+    grid-template-columns:
+    1fr 1fr;
+  }
+}
+
+@media (
+  max-width: 700px
+) {
+
+  .metricsGrid {
+
+    grid-template-columns:
+    1fr;
+  }
+
+  .topbar {
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    align-items: flex-start;
+  }
+
+  .topbar h1 {
+
+    font-size: 42px;
+  }
+}
+

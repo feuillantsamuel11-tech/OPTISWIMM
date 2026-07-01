@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x50 butterfly aerobic control",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z3",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "butterfly_efficiency",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "butterfly",
+      "aerobic",
+      "efficiency"
+    ]
+  },
+
+  {
+    "title": "24x25 butterfly sprint power",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 45,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "max_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "sprint",
+      "velocity"
+    ]
+  },
+
+  {
+    "title": "12x100 butterfly threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "papillon",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_stability",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "threshold",
+      "200"
+    ]
+  },
+
+  {
+    "title": "20x50 butterfly race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "papillon",
+    "equipment": "tempo_trainer",
+    "volume": 1000,
+    "rest": 35,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "race_pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "10x75 butterfly lactate resistance",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "papillon",
+    "equipment": "none",
+    "volume": 750,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "fatigue_resistance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "lactate",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "Butterfly underwater dolphin progression",
+    "category": "speed",
+    "objective": "underwater_power",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 40,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "underwater_power",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "underwater",
+      "dolphin"
+    ]
+  },
+
+  {
+    "title": "8x150 butterfly aerobic endurance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 1200,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "long_stroke_control",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "endurance",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "18x50 butterfly frequency control",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "papillon",
+    "equipment": "tempo_trainer",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "stroke_rate_control",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "butterfly",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "Broken 200 butterfly simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "papillon",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "competition_execution",
+    "race_specificity": "200",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "butterfly",
+      "competition",
+      "200"
+    ]
+  },
+
+  {
+    "title": "1200 smooth butterfly recovery",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "mobility_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "butterfly",
+      "recovery",
+      "mobility"
+    ]
+  }
+]

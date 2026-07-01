@@ -1,0 +1,162 @@
+[
+  {
+    "title": "30x100 overload threshold density",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 3000,
+    "rest": 10,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "fatigue_accumulation",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "overload",
+      "threshold",
+      "density"
+    ]
+  },
+
+  {
+    "title": "12x400 overload aerobic hold",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 4800,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "volume_tolerance",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "overload",
+      "aerobic",
+      "volume"
+    ]
+  },
+
+  {
+    "title": "20x200 overload threshold progression",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 4000,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "threshold_resistance",
+    "race_specificity": "800",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "overload",
+      "threshold",
+      "resistance"
+    ]
+  },
+
+  {
+    "title": "8x600 aerobic overload endurance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 4800,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "long_fatigue_management",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "overload",
+      "endurance",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "24x75 overload aerobic threshold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_density",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "overload",
+      "density",
+      "threshold"
+    ]
+  },
+
+  {
+    "title": "16x150 overload lactate build",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2400,
+    "rest": 45,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "lactate_accumulation",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "overload",
+      "lactate",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "4000 overload recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 4000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "recovery_flush",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "advanced",
+    "tags": [
+      "overload",
+      "recovery",
+      "flush"
+    ]
+  }
+]

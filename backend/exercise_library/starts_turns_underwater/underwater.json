@@ -1,0 +1,139 @@
+[
+  {
+    "title": "24x25 underwater dolphin velocity",
+    "category": "speed",
+    "objective": "underwater_power",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "max_underwater_velocity",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "dolphin",
+      "velocity"
+    ]
+  },
+
+  {
+    "title": "16x35 apnea underwater progression",
+    "category": "main_set",
+    "objective": "underwater_skill",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 560,
+    "rest": 40,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "apnea_control",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "apnea",
+      "control"
+    ]
+  },
+
+  {
+    "title": "12x50 underwater breakout precision",
+    "category": "speed",
+    "objective": "breakout_skill",
+    "zone_code": "Z6",
+    "stroke": "dos",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 50,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "breakout_timing",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "breakout",
+      "timing"
+    ]
+  },
+
+  {
+    "title": "20x25 underwater sprint hold",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 60,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "underwater_explosiveness",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "sprint",
+      "explosive"
+    ]
+  },
+
+  {
+    "title": "Underwater fatigue resistance build",
+    "category": "main_set",
+    "objective": "underwater_skill",
+    "zone_code": "Z5",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 35,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "fatigue_underwater_control",
+    "race_specificity": "200",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "fatigue",
+      "control"
+    ]
+  },
+
+  {
+    "title": "1000 smooth underwater recovery",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "palmes",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "relaxed_underwater_feel",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "underwater",
+      "recovery",
+      "feel"
+    ]
+  }
+]

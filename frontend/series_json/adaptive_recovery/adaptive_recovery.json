@@ -1,0 +1,231 @@
+[
+  {
+    "title": "2000 parasympathetic reset swim",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "parasympathetic_activation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "parasympathetic",
+      "recovery",
+      "reset"
+    ]
+  },
+
+  {
+    "title": "20x50 breathing decompression",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "respiratory_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "breathing",
+      "respiration",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "1500 SNC unload swim",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "dos",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "nervous_system_relaxation",
+    "race_specificity": "sprint",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "snc",
+      "nervous_system",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "12x100 mobility recovery IM",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "mobility_restoration",
+    "race_specificity": "IM",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "mobility",
+      "IM",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "24x25 ultra relaxed underwater",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "underwater_relaxation",
+    "race_specificity": "50",
+    "energy_system": "recovery",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "relaxation",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "1000 feel-for-water reset",
+    "category": "preset",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "scull",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "water_feel",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "feel_water",
+      "technical",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "800 slow pull decompression",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 800,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "upper_body_relaxation",
+    "race_specificity": "distance",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "pull",
+      "decompression",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "16x50 low heart-rate control",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 800,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "heart_rate_control",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "advanced",
+    "tags": [
+      "heart_rate",
+      "control",
+      "recovery"
+    ]
+  },
+
+  {
+    "title": "10x150 smooth aerobic release",
+    "category": "main_set",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 15,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "aerobic_release",
+    "race_specificity": "400",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "aerobic",
+      "release",
+      "smooth"
+    ]
+  },
+
+  {
+    "title": "3000 active regeneration swim",
+    "category": "main_set",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3000,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "full_regeneration",
+    "race_specificity": "open_water",
+    "energy_system": "recovery",
+    "difficulty_level": "advanced",
+    "tags": [
+      "regeneration",
+      "distance",
+      "recovery"
+    ]
+  }
+]

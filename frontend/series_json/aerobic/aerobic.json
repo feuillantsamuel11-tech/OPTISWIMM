@@ -1,0 +1,300 @@
+[
+  {
+    "title": "20x100 aerobic rhythm",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "aerobic_rhythm",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "aerobic",
+      "rhythm",
+      "400"
+    ]
+  },
+
+  {
+    "title": "10x300 aerobic endurance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3000,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "long_aerobic_hold",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "distance",
+      "aerobic",
+      "pull"
+    ]
+  },
+
+  {
+    "title": "30x50 aerobic frequency",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1500,
+    "rest": 10,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "frequency_control",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "frequency",
+      "tempo",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "5x800 aerobic stability",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 4000,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "long_stability",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "stability",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "16x150 aerobic build",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2400,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "progressive_build",
+    "race_specificity": "800",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "build",
+      "aerobic",
+      "800"
+    ]
+  },
+
+  {
+    "title": "8x400 aerobic pull progression",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3200,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "distance_efficiency",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "pull",
+      "efficiency",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "24x75 aerobic pacing",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "pace_consistency",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pace",
+      "consistency",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "12x200 aerobic technique hold",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 2400,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 0,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "technique_under_volume",
+    "race_specificity": "800",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "technical",
+      "volume",
+      "snorkel"
+    ]
+  },
+
+  {
+    "title": "Aerobic IM endurance progression",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stroke_transition_endurance",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "transition",
+      "endurance"
+    ]
+  },
+
+  {
+    "title": "4000 continuous aerobic swim",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 4000,
+    "rest": 0,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "continuous_efficiency",
+    "race_specificity": "10k",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "continuous",
+      "distance",
+      "10k"
+    ]
+  },
+
+  {
+    "title": "18x100 aerobic descending",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "descending_control",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "descending",
+      "control",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "14x150 snorkel aerobic rhythm",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 2100,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 0,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "head_position_control",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "snorkel",
+      "technique",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "1200 easy aerobic loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "aerobic_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "easy",
+      "aerobic"
+    ]
+  }
+]

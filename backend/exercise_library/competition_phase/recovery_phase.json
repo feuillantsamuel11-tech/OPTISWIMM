@@ -1,0 +1,162 @@
+[
+  {
+    "title": "3000 smooth aerobic recovery",
+    "category": "main_set",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 3000,
+    "rest": 0,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "parasympathetic_activation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "aerobic",
+      "flush"
+    ]
+  },
+
+  {
+    "title": "16x100 technical recovery rhythm",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1600,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "technical_relaxation",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "technical",
+      "relaxation"
+    ]
+  },
+
+  {
+    "title": "IM mobility recovery swim",
+    "category": "main_set",
+    "objective": "mobility_recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 20,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "mobility_restoration",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "mobility",
+      "IM"
+    ]
+  },
+
+  {
+    "title": "12x50 relaxed frequency control",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "frequency_relaxation",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "frequency",
+      "control"
+    ]
+  },
+
+  {
+    "title": "Kick recovery loosen",
+    "category": "preset",
+    "objective": "active_recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "board",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "lower_body_flush",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "kick",
+      "flush"
+    ]
+  },
+
+  {
+    "title": "2000 pull buoy easy recovery",
+    "category": "main_set",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 10,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "upper_body_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "pull",
+      "easy"
+    ]
+  },
+
+  {
+    "title": "1500 easy mixed strokes",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "global_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery_phase",
+      "mixed",
+      "relaxation"
+    ]
+  }
+]

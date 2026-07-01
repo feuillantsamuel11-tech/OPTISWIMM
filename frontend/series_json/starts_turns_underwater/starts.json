@@ -1,0 +1,70 @@
+[
+  {
+    "title": "20x15 explosive start dives",
+    "category": "speed",
+    "objective": "start_power",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "starting_block",
+    "volume": 300,
+    "rest": 75,
+    "intensity_score": 10,
+    "cns_load": 4,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "explosive_reaction",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "starts",
+      "explosive",
+      "reaction"
+    ]
+  },
+
+  {
+    "title": "12x25 start breakout acceleration",
+    "category": "speed",
+    "objective": "breakout_skill",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "starting_block",
+    "volume": 300,
+    "rest": 60,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "breakout_acceleration",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "starts",
+      "breakout",
+      "acceleration"
+    ]
+  },
+
+  {
+    "title": "Reaction time sprint starts",
+    "category": "speed",
+    "objective": "neural_activation",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "starting_block",
+    "volume": 250,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 4,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "reaction_speed",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "starts",
+      "reaction",
+      "speed"
+    ]
+  }
+]

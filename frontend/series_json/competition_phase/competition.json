@@ -1,0 +1,139 @@
+[
+  {
+    "title": "12x50 competition race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "race_execution",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "competition",
+      "race_pace",
+      "execution"
+    ]
+  },
+
+  {
+    "title": "20x25 competition neural sprint",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 75,
+    "intensity_score": 10,
+    "cns_load": 4,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "pure_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "competition",
+      "speed",
+      "velocity"
+    ]
+  },
+
+  {
+    "title": "8x75 broken race simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "competition_precision",
+    "race_specificity": "200",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "competition",
+      "simulation",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "10x50 competition frequency hold",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 500,
+    "rest": 40,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "stroke_rate_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "competition",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "6x100 competition aerobic activation",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 600,
+    "rest": 30,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "activation",
+    "race_specificity": "all",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "competition",
+      "activation",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "1000 competition recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "competition",
+      "recovery",
+      "flush"
+    ]
+  }
+]

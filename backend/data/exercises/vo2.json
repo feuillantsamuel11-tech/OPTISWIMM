@@ -1,0 +1,43 @@
+[
+  {
+    "title": "15x100 VO2 départ 1'20",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z5",
+    "distance": 100,
+    "equipment": "none",
+    "objective": "vo2",
+    "difficulty": 4,
+    "cns_fatigue": 2,
+    "description": "Maintien VO2 max avec récupération courte",
+    "block_type": "main_set",
+    "season_phase": 3,
+    "swimmer_level": 3,
+    "min_age": 14,
+    "max_age": 99,
+    "volume": 1500,
+    "rest_seconds": 15,
+    "intensity_score": 9
+  },
+
+  {
+    "title": "8x200 VO2 pull",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z5",
+    "distance": 200,
+    "equipment": "pull",
+    "objective": "vo2",
+    "difficulty": 5,
+    "cns_fatigue": 2,
+    "description": "VO2 long maintien technique",
+    "block_type": "main_set",
+    "season_phase": 3,
+    "swimmer_level": 4,
+    "min_age": 15,
+    "max_age": 99,
+    "volume": 1600,
+    "rest_seconds": 20,
+    "intensity_score": 9
+  }
+]

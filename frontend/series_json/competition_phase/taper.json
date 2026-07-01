@@ -1,0 +1,139 @@
+[
+  {
+    "title": "16x50 taper race pace precision",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 800,
+    "rest": 40,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "race_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "taper",
+      "race_pace",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "24x25 taper neural activation",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "neural_sharpness",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "taper",
+      "speed",
+      "sharpness"
+    ]
+  },
+
+  {
+    "title": "8x100 taper aerobic maintenance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 800,
+    "rest": 25,
+    "intensity_score": 4,
+    "cns_load": 0,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "aerobic_maintenance",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "taper",
+      "aerobic",
+      "maintenance"
+    ]
+  },
+
+  {
+    "title": "12x50 taper frequency control",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "stroke_rate_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "taper",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "6x75 taper broken sprint",
+    "category": "speed",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 450,
+    "rest": 75,
+    "intensity_score": 8,
+    "cns_load": 3,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "speed_preservation",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "taper",
+      "sprint",
+      "preservation"
+    ]
+  },
+
+  {
+    "title": "1500 taper recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_reset",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "taper",
+      "recovery",
+      "flush"
+    ]
+  }
+]

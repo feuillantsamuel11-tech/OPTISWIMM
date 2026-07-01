@@ -1,0 +1,107 @@
+[
+  {
+    "constraint_name": "avoid_sprint_after_high_cns",
+    "trigger": {
+      "cns_load_above": 6
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "speed",
+        "max_velocity",
+        "underwater_power"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_technical",
+      "recovery",
+      "mobility_recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "limit_consecutive_neural_sessions",
+    "trigger": {
+      "consecutive_high_cns_days_above": 2
+    },
+    "restriction": {
+      "forbidden_zone_codes": [
+        "Z7"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_power",
+      "technical_precision"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "protect_under_fatigue_and_high_cns",
+    "trigger": {
+      "fatigue_level": "high",
+      "cns_load_above": 4
+    },
+    "restriction": {
+      "max_intensity_score": 5
+    },
+    "recommended_replacement": [
+      "adaptive_recovery",
+      "technical_control"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "reduce_start_turn_work_after_neural_overload",
+    "trigger": {
+      "previous_session_objective": "speed"
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "start_power",
+        "turn_speed",
+        "breakout_skill"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_technical",
+      "recovery"
+    ],
+    "priority": "moderate"
+  },
+
+  {
+    "constraint_name": "mandatory_neural_recovery_after_sprint_block",
+    "trigger": {
+      "high_speed_sessions_above": 2
+    },
+    "restriction": {
+      "force_recovery_day": true
+    },
+    "recommended_replacement": [
+      "recovery",
+      "parasympathetic_reset"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "avoid_max_velocity_under_accumulated_fatigue",
+    "trigger": {
+      "fatigue_score_above": 45000,
+      "cns_load_above": 5
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "speed",
+        "max_velocity"
+      ]
+    },
+    "recommended_replacement": [
+      "technical_precision",
+      "easy_aerobic"
+    ],
+    "priority": "high"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "10x400 hypoxic aerobic",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 4000,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "oxygen_efficiency",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "hypoxic",
+      "aerobic",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "20x50 breathing pattern control",
+    "category": "preset",
+    "objective": "hypoxic_control",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "breathing_pattern",
+    "race_specificity": "400",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "breathing",
+      "pattern",
+      "control"
+    ]
+  },
+
+  {
+    "title": "16x75 CO2 tolerance build",
+    "category": "main_set",
+    "objective": "hypoxic_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "co2_tolerance",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "co2",
+      "hypoxic",
+      "tolerance"
+    ]
+  },
+
+  {
+    "title": "24x25 no-breath sprint",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 40,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "breath_control_under_speed",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "no_breath",
+      "sprint",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "8x300 altitude rhythm swim",
+    "category": "main_set",
+    "objective": "altitude_preparation",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2400,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "altitude_adaptation",
+    "race_specificity": "800",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "altitude",
+      "rhythm",
+      "adaptation"
+    ]
+  },
+
+  {
+    "title": "12x100 underwater breathing stress",
+    "category": "main_set",
+    "objective": "hypoxic_control",
+    "zone_code": "Z4",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 1200,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "stress_control",
+    "race_specificity": "100",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "stress",
+      "hypoxic"
+    ]
+  },
+
+  {
+    "title": "6x500 restricted breathing pace",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 3000,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "breathing_discipline",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "restricted_breathing",
+      "threshold",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "18x50 hypoxic progression",
+    "category": "main_set",
+    "objective": "hypoxic_control",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 900,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "respiratory_progression",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "hypoxic",
+      "progression",
+      "respiration"
+    ]
+  },
+
+  {
+    "title": "4x800 controlled oxygen deficit",
+    "category": "main_set",
+    "objective": "altitude_preparation",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 3200,
+    "rest": 45,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "oxygen_management",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "elite",
+    "tags": [
+      "oxygen",
+      "management",
+      "open_water"
+    ]
+  },
+
+  {
+    "title": "1200 relaxed breathing reset",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "respiratory_reset",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "breathing",
+      "reset",
+      "recovery"
+    ]
+  }
+]

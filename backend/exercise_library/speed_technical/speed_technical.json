@@ -1,0 +1,231 @@
+[
+  {
+    "title": "12x25 fréquence contrôlée",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 300,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "frequency",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "frequency",
+      "speed",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "16x25 vitesse technique",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 400,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "alignment",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "alignment",
+      "snorkel",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "8x50 amplitude fréquence",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 400,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "amplitude",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "amplitude",
+      "frequency",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "20x25 vitesse relâchée",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 15,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "relaxation",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "relaxation",
+      "palmes",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "10x50 vitesse technique pull",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 500,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "catch",
+    "race_specificity": "200",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pull",
+      "catch",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "6x75 vitesse progressive",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 450,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "progression",
+    "race_specificity": "200",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "progression",
+      "speed",
+      "200"
+    ]
+  },
+
+  {
+    "title": "8x25 underwater technique",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 200,
+    "rest": 25,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "underwater",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "palmes",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "12x50 sprint technique contrôlé",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 600,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "efficiency",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "efficiency",
+      "snorkel",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "16x50 vitesse respiration limitée",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "breathing_control",
+    "race_specificity": "200",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breathing",
+      "speed",
+      "200"
+    ]
+  },
+
+  {
+    "title": "24x25 vitesse amplitude",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "amplitude",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "amplitude",
+      "paddles",
+      "speed"
+    ]
+  }
+]

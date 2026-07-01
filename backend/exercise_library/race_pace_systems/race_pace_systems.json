@@ -1,0 +1,231 @@
+[
+  {
+    "title": "30x50 USRPT 100 pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1500,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "usrpt_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "usrpt",
+      "100",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "20x100 exact 400 pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pace_accuracy",
+    "race_specificity": "400",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "pace",
+      "400",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "Broken 150 race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 900,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "broken_speed_hold",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "broken",
+      "race_pace",
+      "200"
+    ]
+  },
+
+  {
+    "title": "16x75 descending split control",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "descending_pacing",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "descending",
+      "pacing",
+      "strategy"
+    ]
+  },
+
+  {
+    "title": "24x25 exact sprint speed",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 35,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "speed_precision",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "sprint",
+      "precision",
+      "50"
+    ]
+  },
+
+  {
+    "title": "12x125 stroke count race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1500,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "stroke_efficiency",
+    "race_specificity": "400",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "stroke_count",
+      "efficiency",
+      "pace"
+    ]
+  },
+
+  {
+    "title": "8x200 race rhythm hold",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "rhythm_stability",
+    "race_specificity": "800",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "rhythm",
+      "800",
+      "stability"
+    ]
+  },
+
+  {
+    "title": "10x50 lactate race pace finish",
+    "category": "speed",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 500,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "finish_under_fatigue",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "finish",
+      "fatigue",
+      "race"
+    ]
+  },
+
+  {
+    "title": "6x300 open water race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1800,
+    "rest": 25,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "long_pace_stability",
+    "race_specificity": "5k",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "pace",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "1000 smooth technical reset",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1000,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "technical_reset",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "reset",
+      "technical",
+      "recovery"
+    ]
+  }
+]

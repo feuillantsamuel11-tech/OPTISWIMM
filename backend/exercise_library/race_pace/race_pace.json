@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x50 race pace 100",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "race_rhythm",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "race_pace",
+      "100",
+      "rhythm"
+    ]
+  },
+
+  {
+    "title": "8x100 race pace 200",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 45,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "holding_speed",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "holding",
+      "200",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "20x25 race pace sprint",
+    "category": "speed",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 35,
+    "intensity_score": 9,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "explosiveness",
+    "race_specificity": "50",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "50",
+      "explosive",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "6x200 race pace 400",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 40,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pace_control",
+    "race_specificity": "400",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "400",
+      "pace",
+      "pull"
+    ]
+  },
+
+  {
+    "title": "4x400 race pace endurance",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1600,
+    "rest": 60,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "holding_form",
+    "race_specificity": "1500",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "1500",
+      "holding_form",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "24x50 broken race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "broken_swim",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "broken",
+      "200",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "12x75 race pace progression",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 900,
+    "rest": 25,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "progression",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "progression",
+      "100",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "18x50 race pace density",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 900,
+    "rest": 15,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "density",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "density",
+      "100",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "10x100 race pace threshold",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1000,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "threshold_mix",
+    "race_specificity": "400",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "threshold",
+      "400",
+      "race_pace"
+    ]
+  },
+
+  {
+    "title": "32x25 race pace speed",
+    "category": "speed",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 9,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "speed_frequency",
+    "race_specificity": "50",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "50",
+      "frequency",
+      "speed"
+    ]
+  }
+]

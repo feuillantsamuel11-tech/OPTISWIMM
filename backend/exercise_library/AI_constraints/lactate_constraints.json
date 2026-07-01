@@ -1,0 +1,84 @@
+[
+  {
+    "constraint_name": "avoid_double_high_lactate_sessions",
+    "trigger": {
+      "previous_session_objective": "lactate_tolerance"
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "lactate_tolerance",
+        "competition"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_power",
+      "adaptive_recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "protect_after_extreme_lactate_load",
+    "trigger": {
+      "lactate_load_above": 8
+    },
+    "restriction": {
+      "max_intensity_score": 5
+    },
+    "recommended_replacement": [
+      "technical_precision",
+      "recovery"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "avoid_lactate_after_high_cns",
+    "trigger": {
+      "cns_load_above": 5
+    },
+    "restriction": {
+      "forbidden_objectives": [
+        "lactate_tolerance"
+      ]
+    },
+    "recommended_replacement": [
+      "aerobic_technical",
+      "easy_aerobic"
+    ],
+    "priority": "high"
+  },
+
+  {
+    "constraint_name": "mandatory_recovery_after_lactate_block",
+    "trigger": {
+      "high_lactate_sessions_above": 2
+    },
+    "restriction": {
+      "force_recovery_day": true
+    },
+    "recommended_replacement": [
+      "recovery",
+      "mobility_recovery"
+    ],
+    "priority": "critical"
+  },
+
+  {
+    "constraint_name": "limit_lactate_under_accumulated_fatigue",
+    "trigger": {
+      "fatigue_score_above": 40000
+    },
+    "restriction": {
+      "forbidden_zone_codes": [
+        "Z6",
+        "Z7"
+      ]
+    },
+    "recommended_replacement": [
+      "adaptive_recovery",
+      "technical_control"
+    ],
+    "priority": "high"
+  }
+]

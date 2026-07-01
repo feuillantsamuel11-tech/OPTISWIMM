@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Sculling scapular awareness progression",
+    "category": "preset",
+    "objective": "scapular_control",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "water_feel_stability",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "scapular",
+      "sculling",
+      "stability"
+    ]
+  },
+
+  {
+    "title": "Single arm scapular alignment swim",
+    "category": "main_set",
+    "objective": "technical_stability",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1400,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "shoulder_alignment",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "scapular",
+      "alignment",
+      "control"
+    ]
+  },
+
+  {
+    "title": "Backstroke posture stabilization",
+    "category": "main_set",
+    "objective": "postural_control",
+    "zone_code": "Z2",
+    "stroke": "dos",
+    "equipment": "snorkel",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "upper_back_stability",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "scapular",
+      "posture",
+      "backstroke"
+    ]
+  },
+
+  {
+    "title": "Low fatigue freestyle alignment",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "relaxed_shoulder_position",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "scapular",
+      "alignment",
+      "relaxation"
+    ]
+  },
+
+  {
+    "title": "Scapular rhythm coordination set",
+    "category": "preset",
+    "objective": "coordination",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "scapular_timing",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "scapular",
+      "timing",
+      "coordination"
+    ]
+  },
+
+  {
+    "title": "1200 easy scapular recovery swim",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "upper_body_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "scapular",
+      "recovery",
+      "relaxation"
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "6x200 threshold control",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "pace_control",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "threshold",
+      "pace",
+      "400"
+    ]
+  },
+
+  {
+    "title": "3x400 threshold negative split",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "negative_split",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "negative_split",
+      "pull",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "12x100 threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "holding_pace",
+    "race_specificity": "800",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "threshold",
+      "holding",
+      "800"
+    ]
+  },
+
+  {
+    "title": "8x150 threshold progression",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "progression",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "snorkel",
+      "progression",
+      "400"
+    ]
+  },
+
+  {
+    "title": "16x75 threshold rhythm",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 10,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "rhythm",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "rhythm",
+      "threshold",
+      "200"
+    ]
+  },
+
+  {
+    "title": "5x300 threshold aerobic hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1500,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "aerobic_strength",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "distance",
+      "pull",
+      "strength"
+    ]
+  },
+
+  {
+    "title": "20x50 threshold pace",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "tempo",
+    "race_specificity": "100",
+    "energy_system": "threshold",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "tempo",
+      "100",
+      "pace"
+    ]
+  },
+
+  {
+    "title": "4x500 threshold endurance",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 35,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "endurance",
+    "race_specificity": "open_water",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "distance",
+      "endurance"
+    ]
+  },
+
+  {
+    "title": "10x100 threshold frequency",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "frequency",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "frequency",
+      "400",
+      "snorkel"
+    ]
+  },
+
+  {
+    "title": "7x200 threshold build",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1400,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "build",
+    "race_specificity": "800",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "build",
+      "threshold",
+      "800"
+    ]
+  }
+]

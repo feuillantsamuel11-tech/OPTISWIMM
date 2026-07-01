@@ -1,0 +1,43 @@
+[
+{
+"title": "400 crawl progressif",
+"category": "warmup",
+"stroke": "crawl",
+"zone_code": "Z1",
+"distance": 400,
+"equipment": "none",
+"objective": "aerobic_foundation",
+"difficulty": 1,
+"cns_fatigue": 1,
+"description": "Échauffement progressif respiration contrôlée",
+"block_type": "warmup",
+"season_phase": 1,
+"swimmer_level": 2,
+"min_age": 10,
+"max_age": 99,
+"volume": 400,
+"rest_seconds": 0,
+"intensity_score": 2
+},
+
+{
+"title": "600 nage variée souple",
+"category": "warmup",
+"stroke": "4n",
+"zone_code": "Z1",
+"distance": 600,
+"equipment": "none",
+"objective": "aerobic_foundation",
+"difficulty": 1,
+"cns_fatigue": 1,
+"description": "Base aérobie progressive relâchée",
+"block_type": "warmup",
+"season_phase": 1,
+"swimmer_level": 2,
+"min_age": 10,
+"max_age": 99,
+"volume": 600,
+"rest_seconds": 0,
+"intensity_score": 2
+}
+]

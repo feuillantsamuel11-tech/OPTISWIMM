@@ -1,0 +1,231 @@
+[
+  {
+    "title": "Core stability circuit",
+    "category": "dryland",
+    "objective": "core_stability",
+    "zone_code": "DL1",
+    "stroke": "all",
+    "equipment": "mat",
+    "volume": 20,
+    "rest": 30,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "trunk_stability",
+    "race_specificity": "all",
+    "energy_system": "stability",
+    "difficulty_level": "beginner",
+    "tags": [
+      "core",
+      "stability",
+      "dryland"
+    ]
+  },
+
+  {
+    "title": "Explosive medball throws",
+    "category": "dryland",
+    "objective": "explosive_power",
+    "zone_code": "DL3",
+    "stroke": "all",
+    "equipment": "medball",
+    "volume": 15,
+    "rest": 60,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "explosive_transfer",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "advanced",
+    "tags": [
+      "explosive",
+      "power",
+      "medball"
+    ]
+  },
+
+  {
+    "title": "Shoulder prevention routine",
+    "category": "dryland",
+    "objective": "injury_prevention",
+    "zone_code": "DL1",
+    "stroke": "all",
+    "equipment": "bands",
+    "volume": 25,
+    "rest": 20,
+    "intensity_score": 2,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "shoulder_health",
+    "race_specificity": "all",
+    "energy_system": "mobility",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "prevention",
+      "bands"
+    ]
+  },
+
+  {
+    "title": "Plyometric jump circuit",
+    "category": "dryland",
+    "objective": "explosive_power",
+    "zone_code": "DL3",
+    "stroke": "all",
+    "equipment": "box",
+    "volume": 18,
+    "rest": 75,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "leg_explosiveness",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "plyometric",
+      "explosive",
+      "legs"
+    ]
+  },
+
+  {
+    "title": "Mobility recovery flow",
+    "category": "dryland",
+    "objective": "mobility_recovery",
+    "zone_code": "DL1",
+    "stroke": "all",
+    "equipment": "mat",
+    "volume": 30,
+    "rest": 15,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "mobility_restoration",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "mobility",
+      "recovery",
+      "flexibility"
+    ]
+  },
+
+  {
+    "title": "Swimmer pull strength circuit",
+    "category": "dryland",
+    "objective": "strength_endurance",
+    "zone_code": "DL2",
+    "stroke": "crawl",
+    "equipment": "pullup_bar",
+    "volume": 25,
+    "rest": 45,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "pull_strength",
+    "race_specificity": "200",
+    "energy_system": "strength",
+    "difficulty_level": "advanced",
+    "tags": [
+      "strength",
+      "pull",
+      "endurance"
+    ]
+  },
+
+  {
+    "title": "SNC activation pre-race",
+    "category": "dryland",
+    "objective": "neural_activation",
+    "zone_code": "DL3",
+    "stroke": "all",
+    "equipment": "bands",
+    "volume": 10,
+    "rest": 60,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "nervous_system_activation",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "snc",
+      "activation",
+      "race"
+    ]
+  },
+
+  {
+    "title": "Rotational core transfer",
+    "category": "dryland",
+    "objective": "core_stability",
+    "zone_code": "DL2",
+    "stroke": "crawl",
+    "equipment": "cable",
+    "volume": 20,
+    "rest": 30,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "rotation_transfer",
+    "race_specificity": "200",
+    "energy_system": "stability",
+    "difficulty_level": "advanced",
+    "tags": [
+      "rotation",
+      "core",
+      "transfer"
+    ]
+  },
+
+  {
+    "title": "Dryland aerobic circuit",
+    "category": "dryland",
+    "objective": "aerobic_support",
+    "zone_code": "DL2",
+    "stroke": "all",
+    "equipment": "bodyweight",
+    "volume": 40,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "cardio_support",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "aerobic",
+      "conditioning",
+      "dryland"
+    ]
+  },
+
+  {
+    "title": "Full recovery mobility session",
+    "category": "dryland",
+    "objective": "adaptive_recovery",
+    "zone_code": "DL1",
+    "stroke": "all",
+    "equipment": "mat",
+    "volume": 45,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "global_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "mobility",
+      "dryland"
+    ]
+  }
+]

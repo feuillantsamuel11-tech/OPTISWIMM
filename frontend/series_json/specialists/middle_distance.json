@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x100 middle-distance threshold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "threshold_precision",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "middle_distance",
+      "threshold",
+      "400"
+    ]
+  },
+
+  {
+    "title": "12x75 race pace hold",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 900,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pace_stability",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "race_pace",
+      "200",
+      "middle_distance"
+    ]
+  },
+
+  {
+    "title": "8x200 aerobic power progression",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1600,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "aerobic_strength",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "aerobic",
+      "power",
+      "400"
+    ]
+  },
+
+  {
+    "title": "20x50 speed endurance",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 35,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "speed_maintenance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "speed",
+      "endurance",
+      "200"
+    ]
+  },
+
+  {
+    "title": "6x300 middle-distance aerobic",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1800,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "aerobic_efficiency",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "aerobic",
+      "efficiency",
+      "middle_distance"
+    ]
+  },
+
+  {
+    "title": "10x100 lactate control",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 50,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "lactate_management",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "lactate",
+      "control",
+      "200"
+    ]
+  },
+
+  {
+    "title": "18x50 frequency under fatigue",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency_stability",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "frequency",
+      "fatigue",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "Broken 400 simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "competition_pacing",
+    "race_specificity": "400",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "broken",
+      "competition",
+      "400"
+    ]
+  },
+
+  {
+    "title": "IM middle-distance transitions",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "transition_efficiency",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "transition",
+      "middle_distance"
+    ]
+  },
+
+  {
+    "title": "1500 aerobic recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "parasympathetic_recovery",
+    "race_specificity": "400",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "middle_distance",
+      "easy"
+    ]
+  }
+]

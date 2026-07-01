@@ -1,0 +1,231 @@
+[
+  {
+    "title": "16x15 dive sprint",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 240,
+    "rest": 60,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "start_explosiveness",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "start",
+      "explosive",
+      "50"
+    ]
+  },
+
+  {
+    "title": "20x25 breakout sprint",
+    "category": "speed",
+    "objective": "speed_technical",
+    "zone_code": "Z3",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 25,
+    "intensity_score": 5,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "breakout",
+    "race_specificity": "100",
+    "energy_system": "technical",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breakout",
+      "transition",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "12x50 turn acceleration",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "turn_speed",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turn",
+      "race_pace",
+      "200"
+    ]
+  },
+
+  {
+    "title": "24x15 reaction start",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 360,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "reaction_time",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "reaction",
+      "start",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "10x75 turn endurance",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 750,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "fatigue_turns",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "turns",
+      "fatigue",
+      "400"
+    ]
+  },
+
+  {
+    "title": "18x25 underwater exit",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 450,
+    "rest": 35,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "underwater_exit",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "exit",
+      "speed"
+    ]
+  },
+
+  {
+    "title": "14x50 race turn pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 700,
+    "rest": 20,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "turn_rhythm",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "turn",
+      "race_rhythm",
+      "100"
+    ]
+  },
+
+  {
+    "title": "30x15 easy turns",
+    "category": "preset",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 450,
+    "rest": 10,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "technical_turns",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "turns",
+      "recovery",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "8x100 broken turn swim",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "turn_under_fatigue",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "fatigue",
+      "turn",
+      "lactate"
+    ]
+  },
+
+  {
+    "title": "20x25 relay exchange start",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 500,
+    "rest": 40,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "relay_exchange",
+    "race_specificity": "relay",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "relay",
+      "exchange",
+      "speed"
+    ]
+  }
+]

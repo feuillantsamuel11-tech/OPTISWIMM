@@ -1,0 +1,43 @@
+[
+  {
+    "title": "12x100 pull paddles",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z3",
+    "distance": 100,
+    "equipment": "paddles",
+    "objective": "neural_activation",
+    "difficulty": 3,
+    "cns_fatigue": 2,
+    "description": "Travail force spécifique",
+    "block_type": "activation",
+    "season_phase": 2,
+    "swimmer_level": 3,
+    "min_age": 14,
+    "max_age": 99,
+    "volume": 600,
+    "rest_seconds": 20,
+    "intensity_score": 6
+  },
+
+  {
+    "title": "8x200 pull seuil",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z4",
+    "distance": 200,
+    "equipment": "pull_buoy",
+    "objective": "threshold",
+    "difficulty": 4,
+    "cns_fatigue": 2,
+    "description": "Seuil spécifique pull",
+    "block_type": "main_set",
+    "season_phase": 3,
+    "swimmer_level": 4,
+    "min_age": 15,
+    "max_age": 99,
+    "volume": 1600,
+    "rest_seconds": 25,
+    "intensity_score": 7
+  }
+]

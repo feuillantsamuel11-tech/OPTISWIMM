@@ -1,0 +1,231 @@
+[
+  {
+    "title": "20x50 breaststroke timing control",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z3",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 20,
+    "intensity_score": 5,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "timing_efficiency",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breaststroke",
+      "timing",
+      "technical"
+    ]
+  },
+
+  {
+    "title": "12x100 breaststroke threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "brasse",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "threshold_precision",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "breaststroke",
+      "threshold",
+      "200"
+    ]
+  },
+
+  {
+    "title": "24x25 breaststroke sprint power",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "explosive_pullout",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "breaststroke",
+      "sprint",
+      "power"
+    ]
+  },
+
+  {
+    "title": "16x75 breaststroke race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z5",
+    "stroke": "brasse",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 35,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_rhythm",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "breaststroke",
+      "race_pace",
+      "100"
+    ]
+  },
+
+  {
+    "title": "10x100 breaststroke lactate resistance",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "fatigue_resistance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "breaststroke",
+      "lactate",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "8x200 breaststroke aerobic endurance",
+    "category": "main_set",
+    "objective": "aerobic_power",
+    "zone_code": "Z3",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "stroke_efficiency_under_volume",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breaststroke",
+      "endurance",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "Breaststroke pullout progression",
+    "category": "speed",
+    "objective": "underwater_power",
+    "zone_code": "Z7",
+    "stroke": "brasse",
+    "equipment": "palmes",
+    "volume": 500,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pullout_power",
+    "race_specificity": "100",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "breaststroke",
+      "pullout",
+      "underwater"
+    ]
+  },
+
+  {
+    "title": "18x50 breaststroke frequency control",
+    "category": "main_set",
+    "objective": "tempo_frequency",
+    "zone_code": "Z5",
+    "stroke": "brasse",
+    "equipment": "tempo_trainer",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "cycle_rate_control",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "breaststroke",
+      "frequency",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "Broken 200 breaststroke simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "brasse",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "competition_execution",
+    "race_specificity": "200",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "breaststroke",
+      "competition",
+      "200"
+    ]
+  },
+
+  {
+    "title": "1500 smooth breaststroke recovery",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "brasse",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "mobility_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "breaststroke",
+      "recovery",
+      "mobility"
+    ]
+  }
+]

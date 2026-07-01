@@ -1,0 +1,231 @@
+[
+  {
+    "title": "8x100 éducatifs respiration",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 800,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "breathing",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "beginner",
+    "tags": [
+      "breathing",
+      "snorkel",
+      "technique"
+    ]
+  },
+
+  {
+    "title": "12x50 éducatifs amplitude",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "amplitude",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "beginner",
+    "tags": [
+      "amplitude",
+      "technique",
+      "aerobic"
+    ]
+  },
+
+  {
+    "title": "6x150 technique pull",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 900,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "catch",
+    "race_specificity": "800",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "pull",
+      "catch",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "16x50 technique fréquence",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 800,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "frequency",
+    "race_specificity": "100",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "frequency",
+      "snorkel",
+      "technique"
+    ]
+  },
+
+  {
+    "title": "10x100 DPS contrôle",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1000,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "dps",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "dps",
+      "distance",
+      "paddles"
+    ]
+  },
+
+  {
+    "title": "20x50 respiration contrôlée",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1000,
+    "rest": 10,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "breathing_control",
+    "race_specificity": "400",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "breathing",
+      "control",
+      "400"
+    ]
+  },
+
+  {
+    "title": "8x200 pull amplitude",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1600,
+    "rest": 20,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "amplitude",
+    "race_specificity": "1500",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pull",
+      "amplitude",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "24x25 technique underwater",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "underwater",
+    "race_specificity": "50",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "underwater",
+      "palmes",
+      "technique"
+    ]
+  },
+
+  {
+    "title": "4x400 technique endurance",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1600,
+    "rest": 30,
+    "intensity_score": 4,
+    "cns_load": 1,
+    "fatigue_cost": 2,
+    "pedagogical_focus": "holding_form",
+    "race_specificity": "open_water",
+    "energy_system": "aerobic",
+    "difficulty_level": "advanced",
+    "tags": [
+      "open_water",
+      "holding_form",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "12x75 catch progression",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 900,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "catch",
+    "race_specificity": "200",
+    "energy_system": "aerobic",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "catch",
+      "paddles",
+      "technique"
+    ]
+  }
+]

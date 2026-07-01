@@ -1,0 +1,43 @@
+[
+{
+"title": "8x50 éducatifs amplitude",
+"category": "preset",
+"stroke": "crawl",
+"zone_code": "Z2",
+"distance": 50,
+"equipment": "none",
+"objective": "technical_skill",
+"difficulty": 2,
+"cns_fatigue": 1,
+"description": "Travail amplitude et relâchement",
+"block_type": "preset",
+"season_phase": 1,
+"swimmer_level": 2,
+"min_age": 12,
+"max_age": 99,
+"volume": 400,
+"rest_seconds": 20,
+"intensity_score": 3
+},
+
+{
+"title": "12x50 catch fréquence",
+"category": "preset",
+"stroke": "crawl",
+"zone_code": "Z2",
+"distance": 50,
+"equipment": "pull",
+"objective": "technical_skill",
+"difficulty": 3,
+"cns_fatigue": 1,
+"description": "Travail catch et fréquence",
+"block_type": "preset",
+"season_phase": 2,
+"swimmer_level": 3,
+"min_age": 13,
+"max_age": 99,
+"volume": 600,
+"rest_seconds": 15,
+"intensity_score": 4
+}
+]

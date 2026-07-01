@@ -1,0 +1,38 @@
+[
+  {
+    "title":"16x50 VO2 density",
+    "category":"main_set",
+    "objective":"vo2",
+    "zone_code":"Z5",
+    "stroke":"crawl",
+    "equipment":"none",
+    "volume":800,
+    "rest":15,
+    "intensity_score":7,
+    "cns_load":2,
+    "fatigue_cost":5,
+    "pedagogical_focus":"oxygen_uptake",
+    "race_specificity":"400",
+    "energy_system":"vo2",
+    "difficulty_level":"elite",
+    "tags":"vo2,density,400"
+  },
+  {
+    "title":"24x50 VO2 density",
+    "category":"main_set",
+    "objective":"vo2",
+    "zone_code":"Z5",
+    "stroke":"crawl",
+    "equipment":"none",
+    "volume":1200,
+    "rest":15,
+    "intensity_score":7,
+    "cns_load":2,
+    "fatigue_cost":5,
+    "pedagogical_focus":"oxygen_uptake",
+    "race_specificity":"400",
+    "energy_system":"vo2",
+    "difficulty_level":"elite",
+    "tags":"vo2,density"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "20x100 VO2 max",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "oxygen_consumption",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "vo2",
+      "400",
+      "oxygen"
+    ]
+  },
+
+  {
+    "title": "10x200 VO2 hold",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "holding_pace",
+    "race_specificity": "800",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "pull",
+      "vo2",
+      "holding"
+    ]
+  },
+
+  {
+    "title": "30x50 VO2 density",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1500,
+    "rest": 10,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "density",
+    "race_specificity": "200",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "density",
+      "vo2",
+      "200"
+    ]
+  },
+
+  {
+    "title": "12x150 VO2 progression",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1800,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "progression",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "snorkel",
+      "progression",
+      "vo2"
+    ]
+  },
+
+  {
+    "title": "8x300 aerobic VO2 build",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 2400,
+    "rest": 30,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "build",
+    "race_specificity": "1500",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "build",
+      "distance",
+      "vo2"
+    ]
+  },
+
+  {
+    "title": "40x50 VO2 race rhythm",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 10,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_rhythm",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "race_pace",
+      "400",
+      "vo2"
+    ]
+  },
+
+  {
+    "title": "16x100 VO2 frequency",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1600,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency",
+    "race_specificity": "200",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "frequency",
+      "vo2",
+      "snorkel"
+    ]
+  },
+
+  {
+    "title": "5x400 VO2 endurance",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 40,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "endurance",
+    "race_specificity": "open_water",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "endurance",
+      "vo2"
+    ]
+  },
+
+  {
+    "title": "24x75 VO2 threshold mix",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "mixed_threshold",
+    "race_specificity": "400",
+    "energy_system": "vo2",
+    "difficulty_level": "advanced",
+    "tags": [
+      "threshold",
+      "vo2",
+      "400"
+    ]
+  },
+
+  {
+    "title": "18x100 VO2 aerobic power",
+    "category": "main_set",
+    "objective": "vo2",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 7,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "power",
+    "race_specificity": "800",
+    "energy_system": "vo2",
+    "difficulty_level": "elite",
+    "tags": [
+      "power",
+      "vo2",
+      "800"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "6x50 lactique max",
+    "category": "speed",
+    "stroke": "crawl",
+    "zone_code": "Z6",
+    "distance": 50,
+    "equipment": "none",
+    "objective": "lactate_capacity",
+    "difficulty": 5,
+    "cns_fatigue": 3,
+    "description": "Sprint maximal récupération longue",
+    "block_type": "speed",
+    "season_phase": 4,
+    "swimmer_level": 4,
+    "min_age": 15,
+    "max_age": 99,
+    "volume": 300,
+    "rest_seconds": 180,
+    "intensity_score": 10
+  },
+
+  {
+    "title": "4x100 lactique progressif",
+    "category": "main_set",
+    "stroke": "crawl",
+    "zone_code": "Z6",
+    "distance": 100,
+    "equipment": "none",
+    "objective": "lactate_capacity",
+    "difficulty": 5,
+    "cns_fatigue": 3,
+    "description": "Dernier 25 maximal",
+    "block_type": "main_set",
+    "season_phase": 4,
+    "swimmer_level": 4,
+    "min_age": 16,
+    "max_age": 99,
+    "volume": 400,
+    "rest_seconds": 120,
+    "intensity_score": 10
+  }
+]

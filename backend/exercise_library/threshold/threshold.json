@@ -1,0 +1,231 @@
+[
+  {
+    "title": "20x100 threshold hold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 2000,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "threshold_stability",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "threshold",
+      "stability",
+      "400"
+    ]
+  },
+
+  {
+    "title": "10x200 progressive threshold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2000,
+    "rest": 20,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "progressive_threshold",
+    "race_specificity": "800",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "threshold",
+      "progressive",
+      "tempo"
+    ]
+  },
+
+  {
+    "title": "6x400 aerobic threshold",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2400,
+    "rest": 30,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "long_threshold",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "threshold",
+      "distance",
+      "pull"
+    ]
+  },
+
+  {
+    "title": "16x75 threshold build",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 3,
+    "pedagogical_focus": "pace_build",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "intermediate",
+    "tags": [
+      "threshold",
+      "pace",
+      "build"
+    ]
+  },
+
+  {
+    "title": "8x300 threshold rhythm",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 2400,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "rhythm_control",
+    "race_specificity": "1500",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "threshold",
+      "rhythm",
+      "distance"
+    ]
+  },
+
+  {
+    "title": "12x150 threshold pace precision",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1800,
+    "rest": 20,
+    "intensity_score": 7,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "pace_precision",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "precision",
+      "threshold",
+      "pace"
+    ]
+  },
+
+  {
+    "title": "4x500 threshold endurance",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 2000,
+    "rest": 40,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "fatigue_stability",
+    "race_specificity": "open_water",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "open_water",
+      "threshold",
+      "fatigue"
+    ]
+  },
+
+  {
+    "title": "24x50 threshold frequency",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1200,
+    "rest": 15,
+    "intensity_score": 6,
+    "cns_load": 1,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "frequency_threshold",
+    "race_specificity": "200",
+    "energy_system": "threshold",
+    "difficulty_level": "advanced",
+    "tags": [
+      "frequency",
+      "threshold",
+      "200"
+    ]
+  },
+
+  {
+    "title": "Threshold IM progression",
+    "category": "main_set",
+    "objective": "threshold_control",
+    "zone_code": "Z4",
+    "stroke": "IM",
+    "equipment": "none",
+    "volume": 1600,
+    "rest": 25,
+    "intensity_score": 6,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "stroke_transition",
+    "race_specificity": "400",
+    "energy_system": "threshold",
+    "difficulty_level": "elite",
+    "tags": [
+      "IM",
+      "threshold",
+      "transition"
+    ]
+  },
+
+  {
+    "title": "1200 easy threshold loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "threshold_recovery",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "threshold",
+      "easy"
+    ]
+  }
+]

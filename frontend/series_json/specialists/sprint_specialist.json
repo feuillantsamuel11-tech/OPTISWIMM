@@ -1,0 +1,139 @@
+[
+  {
+    "title": "24x25 max velocity sprint",
+    "category": "speed",
+    "objective": "speed",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 50,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "max_velocity",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "sprint",
+      "velocity",
+      "50"
+    ]
+  },
+
+  {
+    "title": "16x50 sprint lactate resistance",
+    "category": "main_set",
+    "objective": "lactate_tolerance",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "lactate_resistance",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "lactate",
+      "sprint",
+      "100"
+    ]
+  },
+
+  {
+    "title": "12x35 underwater explosive",
+    "category": "speed",
+    "objective": "underwater_power",
+    "zone_code": "Z7",
+    "stroke": "papillon",
+    "equipment": "palmes",
+    "volume": 420,
+    "rest": 45,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "underwater_speed",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "underwater",
+      "explosive",
+      "sprint"
+    ]
+  },
+
+  {
+    "title": "8x75 sprint race pace",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 75,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "race_precision",
+    "race_specificity": "100",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "race_pace",
+      "100",
+      "precision"
+    ]
+  },
+
+  {
+    "title": "10x50 resisted power sprint",
+    "category": "speed",
+    "objective": "resistance_power",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "parachute",
+    "volume": 500,
+    "rest": 60,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "force_production",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "power",
+      "resisted",
+      "sprint"
+    ]
+  },
+
+  {
+    "title": "1200 neural recovery loosen",
+    "category": "cooldown",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "nervous_system_reset",
+    "race_specificity": "50",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "snc",
+      "sprint"
+    ]
+  }
+]

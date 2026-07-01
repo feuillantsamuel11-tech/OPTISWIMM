@@ -1,0 +1,43 @@
+[
+  {
+    "title": "200 récupération respiration contrôlée",
+    "category": "recovery",
+    "stroke": "crawl",
+    "zone_code": "Z1",
+    "distance": 200,
+    "equipment": "none",
+    "objective": "recovery",
+    "difficulty": 1,
+    "cns_fatigue": 1,
+    "description": "Retour au calme respiration longue",
+    "block_type": "recovery",
+    "season_phase": 1,
+    "swimmer_level": 1,
+    "min_age": 10,
+    "max_age": 99,
+    "volume": 200,
+    "rest_seconds": 0,
+    "intensity_score": 1
+  },
+
+  {
+    "title": "4x100 relâchement parasympathique",
+    "category": "recovery",
+    "stroke": "4n",
+    "zone_code": "Z1",
+    "distance": 100,
+    "equipment": "none",
+    "objective": "recovery",
+    "difficulty": 1,
+    "cns_fatigue": 1,
+    "description": "Relâchement nerveux récupération complète",
+    "block_type": "recovery",
+    "season_phase": 1,
+    "swimmer_level": 1,
+    "min_age": 10,
+    "max_age": 99,
+    "volume": 400,
+    "rest_seconds": 20,
+    "intensity_score": 1
+  }
+]

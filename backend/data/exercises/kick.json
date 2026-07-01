@@ -1,0 +1,43 @@
+[
+  {
+    "title": "10x50 jambes planche",
+    "category": "preset",
+    "stroke": "crawl",
+    "zone_code": "Z2",
+    "distance": 50,
+    "equipment": "board",
+    "objective": "aerobic_foundation",
+    "difficulty": 2,
+    "cns_fatigue": 1,
+    "description": "Travail jambes continu",
+    "block_type": "preset",
+    "season_phase": 1,
+    "swimmer_level": 2,
+    "min_age": 10,
+    "max_age": 99,
+    "volume": 500,
+    "rest_seconds": 15,
+    "intensity_score": 3
+  },
+
+  {
+    "title": "8x100 jambes vertical kick",
+    "category": "preset",
+    "stroke": "crawl",
+    "zone_code": "Z3",
+    "distance": 100,
+    "equipment": "none",
+    "objective": "aerobic_foundation",
+    "difficulty": 3,
+    "cns_fatigue": 2,
+    "description": "Travail puissance jambes",
+    "block_type": "preset",
+    "season_phase": 2,
+    "swimmer_level": 3,
+    "min_age": 12,
+    "max_age": 99,
+    "volume": 800,
+    "rest_seconds": 20,
+    "intensity_score": 5
+  }
+]

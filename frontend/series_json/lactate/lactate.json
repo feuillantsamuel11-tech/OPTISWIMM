@@ -1,0 +1,231 @@
+[
+  {
+    "title": "12x50 lactate sprint",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "max_speed",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "lactate",
+      "sprint",
+      "100"
+    ]
+  },
+
+  {
+    "title": "8x75 lactate tolerance",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 600,
+    "rest": 75,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "tolerance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "tolerance",
+      "lactate",
+      "200"
+    ]
+  },
+
+  {
+    "title": "16x25 maximal sprint",
+    "category": "speed",
+    "objective": "lactate",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 400,
+    "rest": 45,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pure_speed",
+    "race_specificity": "50",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "maximal",
+      "speed",
+      "50"
+    ]
+  },
+
+  {
+    "title": "6x100 lactate overload",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "paddles",
+    "volume": 600,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "overload",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "overload",
+      "lactate",
+      "power"
+    ]
+  },
+
+  {
+    "title": "20x25 sprint resistance",
+    "category": "speed",
+    "objective": "lactate",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "parachute",
+    "volume": 500,
+    "rest": 40,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "resistance",
+    "race_specificity": "50",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "resistance",
+      "parachute",
+      "sprint"
+    ]
+  },
+
+  {
+    "title": "10x50 lactate race pace",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 500,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "race_pace",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "race_pace",
+      "100",
+      "lactate"
+    ]
+  },
+
+  {
+    "title": "4x200 broken lactate",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 800,
+    "rest": 120,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "broken_swim",
+    "race_specificity": "400",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "broken",
+      "400",
+      "lactate"
+    ]
+  },
+
+  {
+    "title": "24x25 explosive speed",
+    "category": "speed",
+    "objective": "lactate",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "palmes",
+    "volume": 600,
+    "rest": 35,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "explosiveness",
+    "race_specificity": "50",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "explosive",
+      "speed",
+      "50"
+    ]
+  },
+
+  {
+    "title": "14x50 lactate density",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 700,
+    "rest": 45,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "density",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "advanced",
+    "tags": [
+      "density",
+      "lactate",
+      "100"
+    ]
+  },
+
+  {
+    "title": "8x100 sprint endurance",
+    "category": "main_set",
+    "objective": "lactate",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 800,
+    "rest": 75,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "sprint_endurance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "sprint_endurance",
+      "pull",
+      "200"
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Easy snorkel shoulder recovery swim",
+    "category": "recovery",
+    "objective": "shoulder_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 2000,
+    "rest": 10,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "reduced_shoulder_stress",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "recovery",
+      "snorkel"
+    ]
+  },
+
+  {
+    "title": "Single arm freestyle shoulder control",
+    "category": "preset",
+    "objective": "technical_stability",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 1200,
+    "rest": 20,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "rotator_control",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "rotator",
+      "stability"
+    ]
+  },
+
+  {
+    "title": "Low stress aerobic pull reduction",
+    "category": "main_set",
+    "objective": "adaptive_recovery",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1800,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "reduced_propulsion_load",
+    "race_specificity": "all",
+    "energy_system": "aerobic",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "aerobic",
+      "protection"
+    ]
+  },
+
+  {
+    "title": "Sculling shoulder activation",
+    "category": "preset",
+    "objective": "mobility_recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "pull",
+    "volume": 800,
+    "rest": 20,
+    "intensity_score": 2,
+    "cns_load": -1,
+    "fatigue_cost": -1,
+    "pedagogical_focus": "water_feel_activation",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "sculling",
+      "activation"
+    ]
+  },
+
+  {
+    "title": "Reduced load freestyle technique",
+    "category": "main_set",
+    "objective": "aerobic_technical",
+    "zone_code": "Z2",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1500,
+    "rest": 15,
+    "intensity_score": 3,
+    "cns_load": 0,
+    "fatigue_cost": 1,
+    "pedagogical_focus": "relaxed_catch_control",
+    "race_specificity": "all",
+    "energy_system": "technical",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "technique",
+      "control"
+    ]
+  },
+
+  {
+    "title": "1500 smooth shoulder loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "snorkel",
+    "volume": 1500,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": -1,
+    "fatigue_cost": -2,
+    "pedagogical_focus": "joint_relaxation",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "shoulder",
+      "recovery",
+      "relaxation"
+    ]
+  }
+]

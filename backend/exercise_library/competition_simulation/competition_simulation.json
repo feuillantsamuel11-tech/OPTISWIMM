@@ -1,0 +1,231 @@
+[
+  {
+    "title": "Broken 200 race simulation",
+    "category": "main_set",
+    "objective": "race_pace",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 1200,
+    "rest": 90,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "broken_race",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "broken",
+      "200",
+      "simulation"
+    ]
+  },
+
+  {
+    "title": "3x100 full race effort",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 300,
+    "rest": 300,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 7,
+    "pedagogical_focus": "competition_execution",
+    "race_specificity": "100",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "race",
+      "100",
+      "competition"
+    ]
+  },
+
+  {
+    "title": "8x50 finish speed build",
+    "category": "speed",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 400,
+    "rest": 60,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "finish_speed",
+    "race_specificity": "100",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "finish",
+      "speed",
+      "competition"
+    ]
+  },
+
+  {
+    "title": "4x400 pacing rehearsal",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 1600,
+    "rest": 60,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "pace_rehearsal",
+    "race_specificity": "400",
+    "energy_system": "race_pace",
+    "difficulty_level": "elite",
+    "tags": [
+      "pace",
+      "400",
+      "simulation"
+    ]
+  },
+
+  {
+    "title": "16x25 relay sprint simulation",
+    "category": "speed",
+    "objective": "competition",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 400,
+    "rest": 45,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "relay_exchange",
+    "race_specificity": "relay",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "relay",
+      "sprint",
+      "competition"
+    ]
+  },
+
+  {
+    "title": "10x75 lactate race hold",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z6",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 750,
+    "rest": 75,
+    "intensity_score": 9,
+    "cns_load": 3,
+    "fatigue_cost": 6,
+    "pedagogical_focus": "lactate_tolerance",
+    "race_specificity": "200",
+    "energy_system": "lactate",
+    "difficulty_level": "elite",
+    "tags": [
+      "lactate",
+      "200",
+      "competition"
+    ]
+  },
+
+  {
+    "title": "6x150 multi-round simulation",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 900,
+    "rest": 120,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 5,
+    "pedagogical_focus": "multi_round",
+    "race_specificity": "100",
+    "energy_system": "competition",
+    "difficulty_level": "elite",
+    "tags": [
+      "rounds",
+      "competition",
+      "100"
+    ]
+  },
+
+  {
+    "title": "12x50 pressure pacing",
+    "category": "main_set",
+    "objective": "competition",
+    "zone_code": "Z5",
+    "stroke": "crawl",
+    "equipment": "tempo_trainer",
+    "volume": 600,
+    "rest": 30,
+    "intensity_score": 8,
+    "cns_load": 2,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "pressure_control",
+    "race_specificity": "200",
+    "energy_system": "race_pace",
+    "difficulty_level": "advanced",
+    "tags": [
+      "pressure",
+      "pace",
+      "competition"
+    ]
+  },
+
+  {
+    "title": "Race start to 15m max",
+    "category": "speed",
+    "objective": "competition",
+    "zone_code": "Z7",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 300,
+    "rest": 90,
+    "intensity_score": 10,
+    "cns_load": 3,
+    "fatigue_cost": 4,
+    "pedagogical_focus": "start_execution",
+    "race_specificity": "50",
+    "energy_system": "neuromuscular",
+    "difficulty_level": "elite",
+    "tags": [
+      "start",
+      "15m",
+      "competition"
+    ]
+  },
+
+  {
+    "title": "200 easy post-race loosen",
+    "category": "cooldown",
+    "objective": "recovery",
+    "zone_code": "Z1",
+    "stroke": "crawl",
+    "equipment": "none",
+    "volume": 200,
+    "rest": 0,
+    "intensity_score": 1,
+    "cns_load": 0,
+    "fatigue_cost": 0,
+    "pedagogical_focus": "parasympathetic_reset",
+    "race_specificity": "all",
+    "energy_system": "recovery",
+    "difficulty_level": "beginner",
+    "tags": [
+      "recovery",
+      "competition",
+      "loosen"
+    ]
+  }
+]

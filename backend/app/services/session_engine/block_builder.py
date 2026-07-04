@@ -363,18 +363,13 @@ class BlockBuilder:
     # RANK
     # =================================================
 
-    def rank_exercises(
+    def rank_exercises(self, exercises):
 
-        self,
-
-        exercises
-    ):
-
-        random.shuffle(
-            exercises
+        return sorted(
+            exercises,
+            key=self.calculate_score,
+            reverse=True
         )
-
-        return exercises
 
     # =================================================
     # REMOVE TITLE DUPLICATES

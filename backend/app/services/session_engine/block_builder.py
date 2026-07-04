@@ -509,8 +509,51 @@ class BlockBuilder:
         }
     
 
-    
-    
+    def _prepare_exercises(
+        self,
+        objective,
+        used_titles,
+        race_distance=None,
+        category=None,
+        max_intensity=10,
+        max_volume=None,
+    ):
+
+        exercises = self.query_exercises(
+            objective,
+            category
+        )
+
+        exercises = self.filter_duplicates(
+            exercises,
+            used_titles
+        )
+
+        exercises = self.filter_intensity(
+            exercises,
+            max_intensity
+        )
+
+        exercises = self.filter_volume(
+            exercises,
+            max_volume
+        )
+
+        exercises = self.filter_race_specificity(
+            exercises,
+            race_distance
+        )
+
+        exercises = self.rank_exercises(
+            exercises
+        )
+
+        exercises = self.remove_title_duplicates(
+            exercises
+        )
+
+        return exercises
+        
 
    
     
@@ -536,85 +579,14 @@ class BlockBuilder:
         max_volume=None
     ):
 
-        exercises = self.query_exercises(
-
-            objective,
-
-            category
-        )
-
-        logger.debug(
-            "QUERY: %s, %s, RESULTS: %s",
-            objective,
-            category,
-            "RESULTS:",
-            len(exercises)
-        )
-        exercises = self.filter_duplicates(
-
-            exercises,
-
-            used_titles
-        )
-        logger.debug(
-            "AFTER DUPLICATES: %s",
-            len(exercises)
-        )
-        logger.debug(
-            "AFTER INTENSITY: %s",
-            len(exercises)
-        )
-        exercises = self.filter_intensity(
-
-            exercises,
-
-            max_intensity
-        )
-
-        exercises = self.filter_volume(
-
-            exercises,
-
-            max_volume
-        )
-        logger.debug(
-            "AFTER VOLUME: %s",
-            len(exercises)
-        )
-        exercises = self.filter_race_specificity(
-            exercises,
-            race_distance
-        )
-
-        logger.debug(
-            "AFTER RACE FILTER: %s",
-            len(exercises)
-        )
-        logger.debug(
-            "TARGET BLOCK: %s",
-            target_block
-        )
-        target_block = int(max_volume * 0.7)
-
-        exercises = sorted(
-
-            exercises,
-
-            key=lambda ex:
-
-            abs(
-                (ex.volume or 0)
-                - target_block
-            )
-        )
-
-
-
-        exercises = self.rank_exercises(
-
-            exercises
-        )
-
+        exercises = self._prepare_exercises(
+            objective=objective,
+            used_titles=used_titles,
+            race_distance=race_distance,
+            category=category,
+            max_intensity=max_intensity,
+            max_volume=max_volume,
+)
         exercises = self.remove_title_duplicates(
 
             exercises
@@ -665,11 +637,13 @@ class BlockBuilder:
         **kwargs
     ):
 
-        exercises = self.query_exercises(
-
-            objective,
-
-            category
+        exercises = self._prepare_exercises(
+            objective=objective,
+            used_titles=used_titles,
+            race_distance=race_distance,
+            category=category,
+            max_intensity=max_intensity,
+            max_volume=max_volume,
         )
 
         exercises = self.filter_duplicates(

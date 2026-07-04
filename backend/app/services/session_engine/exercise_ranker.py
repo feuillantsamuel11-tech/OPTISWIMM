@@ -1,33 +1,78 @@
-def rank_exercises(
-    exercises
-):
+from app.services.session_engine.scoring_engine import ScoringEngine
 
-    scored = []
+import random
 
-    for ex in exercises:
 
-        score = 0
+class ExerciseRanker:
+    """
+    Responsable du classement et de la sélection des exercices.
 
-        score += ex.intensity_score
+    Le calcul du score est entièrement délégué à ScoringEngine.
+    """
 
-        score += (
-            10 - ex.cns_load
+    def __init__(self):
+
+        self.scoring = ScoringEngine()
+
+    # =================================================
+    # RANK
+    # =================================================
+
+    def rank(self, exercises):
+
+        return sorted(
+            exercises,
+            key=self.scoring.calculate_score,
+            reverse=True
         )
 
-        score += (
-            10 - ex.fatigue_cost
+    # =================================================
+    # DIVERSIFY
+    # =================================================
+
+    def diversify(
+
+        self,
+
+        exercises,
+
+        top_pool_size=20
+    ):
+
+        if not exercises:
+            return []
+
+        top_pool = exercises[:min(
+            top_pool_size,
+            len(exercises)
+        )]
+
+        random.shuffle(top_pool)
+
+        return top_pool
+
+    # =================================================
+    # SELECT
+    # =================================================
+
+    def select(
+
+        self,
+
+        exercises,
+
+        limit=1,
+
+        top_pool_size=20
+    ):
+
+        ranked = self.rank(exercises)
+
+        diversified = self.diversify(
+
+            ranked,
+
+            top_pool_size
         )
 
-        scored.append(
-            (ex, score)
-        )
-
-    scored.sort(
-        key=lambda x: x[1],
-        reverse=True
-    )
-
-    return [
-        x[0]
-        for x in scored
-    ]
+        return diversified[:limit]

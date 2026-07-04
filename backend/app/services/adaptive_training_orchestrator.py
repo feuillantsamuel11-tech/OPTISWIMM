@@ -59,11 +59,11 @@ from app.services.race_distance_engine import (
 from app.services.session_engine.specialist_manager import (
             SpecialistManager
 )
-
+from app.services.context_builder import AthleteContextBuilder
 class AdaptiveTrainingOrchestrator:
 
     def __init__(self):
-
+        
         # =============================================
         # LEGACY ENGINES
         # =============================================
@@ -97,7 +97,8 @@ class AdaptiveTrainingOrchestrator:
         self.race_distance_engine = (
             RaceDistanceEngine()
         )
-        
+        self.context_builder = AthleteContextBuilder()
+
         # =============================================
         # LONGITUDINAL ENGINES
         # =============================================
@@ -134,9 +135,9 @@ class AdaptiveTrainingOrchestrator:
             DuplicationManager()
         )
 
-    # =================================================
-    # BUILD ADAPTIVE SESSION
-    # =================================================
+        # =================================================
+        # BUILD ADAPTIVE SESSION
+        # =================================================
 
     def build_adaptive_session(
 
@@ -157,6 +158,10 @@ class AdaptiveTrainingOrchestrator:
         **kwargs
     ):
 
+        
+    
+
+    
         # =============================================
         # LEGACY COMPATIBILITY
         # =============================================
@@ -165,38 +170,7 @@ class AdaptiveTrainingOrchestrator:
 
             athlete_profile = athlete_data
 
-        athlete_state = dict(
-            athlete_profile or {}
-        )
-        specialist = athlete_state.get(
-            "specialist",
-            "middle_distance"
-        )
-
-        race_distance = athlete_state.get(
-            "race_distance",
-            400
-        )
-
-        distance_profile = (
-
-            self.race_distance_engine
-            .get_distance_profile(
-
-                race_distance
-            )
-        )
-        profile = SpecialistManager().build_profile(
-            athlete_state
-        )
-
-        specialist = profile[
-            "specialist"
-        ]
-
-        athlete_state[
-            "specialist"
-        ] = specialist
+        
         
         print(
             "ATHLETE STATE:",

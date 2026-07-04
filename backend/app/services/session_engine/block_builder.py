@@ -5,18 +5,22 @@ from app.models.exercise import (
 from app.database import (
     SessionLocal
 )
-
+from app.services.session_engine.scoring_engine import ScoringEngine
+from app.services.session_engine.exercise_ranker import ExerciseRanker
 import random
 import logging
 
 logger = logging.getLogger(__name__)
+scoring_engine = ScoringEngine()
+exercise_ranker = ExerciseRanker()
 
 class BlockBuilder:
 
     def __init__(self):
 
         self.db = SessionLocal()
-
+        self.scoring_engine = ScoringEngine()
+        self.exercise_ranker = ExerciseRanker()
     # =================================================
     # NORMALIZE TITLE
     # =================================================
@@ -319,56 +323,19 @@ class BlockBuilder:
     # =================================================
     # SCORE
     # =================================================
-
-    def calculate_score(
-
-        self,
-
-        exercise
-    ):
-
-        score = 0
-
-        score += (
-            exercise.intensity_score or 0
-        )
-
-        score += max(
-            0,
-            10 - (
-                exercise.cns_load or 0
-            )
-        )
-
-        score += max(
-            0,
-            10 - (
-                exercise.fatigue_cost or 0
-            )
-        )
-
-        if (
-
-            exercise.difficulty_level
-            == "elite"
-
-        ):
-
-            score += 5
-        
-        return score
-
+    def calculate_score(self, exercise):
+        return self.scoring_engine.calculate_score(exercise)
+       
     # =================================================
     # RANK
     # =================================================
 
-    def rank_exercises(self, exercises):
+    def rank_exercises(
+        self,
+        exercises
+    ):
 
-        return sorted(
-            exercises,
-            key=self.calculate_score,
-            reverse=True
-        )
+        return self.ranker.rank(exercises)
 
     # =================================================
     # REMOVE TITLE DUPLICATES
@@ -674,24 +641,10 @@ class BlockBuilder:
             race_distance
         )
 
-        exercises = self.rank_exercises(
-
-            exercises
+        selected_exercises = self.ranker.select(
+            exercises,
+            limit=limit
         )
-
-        exercises = self.remove_title_duplicates(
-
-            exercises
-        )
-
-        top_pool = exercises[:20]
-
-         
-        random.shuffle(
-            top_pool
-   )
-
-        selected_exercises = top_pool[:limit]
 
         selected = []
 

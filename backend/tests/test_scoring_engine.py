@@ -1,5 +1,5 @@
 from app.services.session_engine.scoring_engine import ScoringEngine
-
+from app.domain.training_context import TrainingContext
 
 class DummyExercise:
 
@@ -56,3 +56,25 @@ def test_calculate_score_none_values():
     )
 
     assert engine.calculate_score(exercise) == 20
+
+def test_context_max_intensity_penalty():
+
+    engine = ScoringEngine()
+
+    exercise = DummyExercise(
+        intensity_score=9,
+        cns_load=1,
+        fatigue_cost=1,
+        difficulty_level="advanced",
+    )
+
+    context = TrainingContext(
+        max_intensity=5
+    )
+
+    score = engine.calculate_score(
+        exercise,
+        context
+    )
+
+    assert score == 7    

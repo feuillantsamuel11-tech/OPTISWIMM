@@ -7,7 +7,9 @@ from app.database import (
 )
 
 import random
+import logging
 
+logger = logging.getLogger(__name__)
 
 class BlockBuilder:
 
@@ -136,8 +138,8 @@ class BlockBuilder:
 
             return exercises
 
-        print(
-            "MAX VOLUME:",
+        logger.debug(
+            "MAX VOLUME: %s",
             max_volume
         )
 
@@ -146,9 +148,7 @@ class BlockBuilder:
 
         if max_volume <= 0:
 
-            print(
-                "NO VOLUME REMAINING"
-            )
+            logger.debug("NO VOLUME REMAINING")
 
             return []
 
@@ -164,8 +164,8 @@ class BlockBuilder:
 
                 filtered.append(ex)
 
-        print(
-            "AFTER VOLUME:",
+        logger.debug(
+            "AFTER VOLUME: %s",
             len(filtered)
         )
 
@@ -225,7 +225,8 @@ class BlockBuilder:
 
                 continue   
 
-            print(
+            logger.debug(
+                "RACE SPECIFICITY: %s, %s, %s",
                 ex.title,
                 ex.race_specificity,
                 ex.category
@@ -237,10 +238,9 @@ class BlockBuilder:
 
             ).lower().strip()
 
-            print(
-                "SPEC:",
+            logger.debug(
+                "SPEC: %s, ALLOWED: %s",
                 spec,
-                "ALLOWED:",
                 allowed
             )
 
@@ -302,17 +302,16 @@ class BlockBuilder:
 
             filtered.append(ex)
 
-        print(
+        logger.debug(
 
-            "RACE FILTER:",
+            "RACE FILTER: %s, INPUT: %s",
             race_distance,
-            "INPUT:",
             len(exercises)
         )
 
-        print(
+        logger.debug(
 
-            "RACE FILTER OUTPUT:",
+            "RACE FILTER OUTPUT: %s",
             len(filtered)
         )
 
@@ -544,8 +543,8 @@ class BlockBuilder:
             category
         )
 
-        print(
-            "QUERY:",
+        logger.debug(
+            "QUERY: %s, %s, RESULTS: %s",
             objective,
             category,
             "RESULTS:",
@@ -557,8 +556,12 @@ class BlockBuilder:
 
             used_titles
         )
-        print(
-            "AFTER DUPLICATES:",
+        logger.debug(
+            "AFTER DUPLICATES: %s",
+            len(exercises)
+        )
+        logger.debug(
+            "AFTER INTENSITY: %s",
             len(exercises)
         )
         exercises = self.filter_intensity(
@@ -574,8 +577,8 @@ class BlockBuilder:
 
             max_volume
         )
-        print(
-            "AFTER VOLUME:",
+        logger.debug(
+            "AFTER VOLUME: %s",
             len(exercises)
         )
         exercises = self.filter_race_specificity(
@@ -583,9 +586,13 @@ class BlockBuilder:
             race_distance
         )
 
-        print(
-            "AFTER RACE FILTER:",
+        logger.debug(
+            "AFTER RACE FILTER: %s",
             len(exercises)
+        )
+        logger.debug(
+            "TARGET BLOCK: %s",
+            target_block
         )
         target_block = int(max_volume * 0.7)
 
@@ -613,14 +620,15 @@ class BlockBuilder:
             exercises
         )
         
-        print(
-            "FINAL CANDIDATES:",
+        logger.debug(
+            "FINAL CANDIDATES: %s",
             len(exercises)
         )
 
         for ex in exercises[:10]:
 
-            print(
+            logger.debug(
+                "EXERCISE: %s, RACE SPECIFICITY: %s, VOLUME: %s",
                 ex.title,
                 ex.race_specificity,
                 ex.volume

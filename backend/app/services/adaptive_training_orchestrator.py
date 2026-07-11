@@ -57,9 +57,14 @@ from app.services.race_distance_engine import (
     RaceDistanceEngine
 )
 from app.services.session_engine.specialist_manager import (
-            SpecialistManager
+    SpecialistManager
 )
-from app.services.context_builder import AthleteContextBuilder
+from app.services.context_builder import( 
+    AthleteContextBuilder)
+
+from app.services.load_analyzer import LoadAnalyzer
+
+
 class AdaptiveTrainingOrchestrator:
 
     def __init__(self):
@@ -99,6 +104,8 @@ class AdaptiveTrainingOrchestrator:
         )
         self.context_builder = AthleteContextBuilder()
 
+        self.load_analyzer = LoadAnalyzer()
+
         # =============================================
         # LONGITUDINAL ENGINES
         # =============================================
@@ -135,9 +142,9 @@ class AdaptiveTrainingOrchestrator:
             DuplicationManager()
         )
 
-        # =================================================
-        # BUILD ADAPTIVE SESSION
-        # =================================================
+       # =================================================
+       # BUILD ADAPTIVE SESSION
+       # =================================================
 
     def build_adaptive_session(
 
@@ -158,24 +165,47 @@ class AdaptiveTrainingOrchestrator:
         **kwargs
     ):
 
-        
-    
-
-    
         # =============================================
         # LEGACY COMPATIBILITY
         # =============================================
-        
+
         if athlete_profile is None:
 
             athlete_profile = athlete_data
 
-        
-        
+        athlete_state = dict(
+            athlete_profile or {}
+        )
+
+        specialist = athlete_state.get(
+            "specialist",
+            "middle_distance"
+        )
+
+        race_distance = athlete_state.get(
+            "race_distance",
+            400
+        )
+
+        distance_profile = (
+            self.race_distance_engine.get_distance_profile(
+                race_distance
+            )
+        )
+
+        profile = SpecialistManager().build_profile(
+            athlete_state
+        )
+
+        specialist = profile["specialist"]
+
+        athlete_state["specialist"] = specialist
+
         print(
             "ATHLETE STATE:",
             athlete_state
         )
+
         print(
             "RACE DISTANCE:",
             race_distance
@@ -186,25 +216,17 @@ class AdaptiveTrainingOrchestrator:
             distance_profile
         )
 
-        if not athlete_state.get(
-            "distance_focus"
-        ):
+        if not athlete_state.get("distance_focus"):
 
-            athlete_state[
-                "distance_focus"
-            ] = (
-
-                distance_profile[
-                    "focus"
-                ]
+            athlete_state["distance_focus"] = (
+                distance_profile["focus"]
             )
+
         # =============================================
         # READINESS INPUTS
         # =============================================
 
-        readiness_inputs = (
-            readiness_inputs or {}
-        )
+        readiness_inputs = readiness_inputs or {}
 
         athlete_state.update(
             readiness_inputs
@@ -214,25 +236,23 @@ class AdaptiveTrainingOrchestrator:
         # OPTIONAL CONTEXT
         # =============================================
 
-        athlete_state[
-            "previous_sessions"
-        ] = previous_sessions or []
+        athlete_state["previous_sessions"] = (
+            previous_sessions or []
+        )
 
-        athlete_state[
-            "current_block"
-        ] = current_block
+        athlete_state["current_block"] = (
+            current_block
+        )
 
-        athlete_state[
-            "target_competition"
-        ] = target_competition
+        athlete_state["target_competition"] = (
+            target_competition
+        )
 
         # =============================================
         # EXTRA KWARGS
         # =============================================
 
-        athlete_state.update(
-            kwargs
-        )
+        athlete_state.update(kwargs)
 
         # =============================================
         # FATIGUE ESTIMATION

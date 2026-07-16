@@ -1,0 +1,17 @@
+id: ST-001
+
+name: High Oxygen Consumption
+
+type: stimulus
+
+category: physiology
+
+description: >
+  Maximize oxygen uptake.
+
+tags:
+  - vo2
+
+version: "1.0.0"
+
+status: validated

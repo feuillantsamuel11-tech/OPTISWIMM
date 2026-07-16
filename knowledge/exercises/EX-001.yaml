@@ -1,0 +1,17 @@
+id: EX-001
+
+name: 20x100 VO2
+
+type: exercise
+
+category: swimming
+
+description: >
+  Swim 20 repetitions of 100 meters at VO2 pace.
+
+tags:
+  - vo2
+
+version: "1.0.0"
+
+status: validated

@@ -1,0 +1,17 @@
+id: TB-001
+
+name: 20 x 100 VO2
+
+type: block
+
+category: aerobic
+
+description: >
+  20 × 100m @ VO2 pace.
+
+tags:
+  - vo2
+
+version: "1.0.0"
+
+status: validated

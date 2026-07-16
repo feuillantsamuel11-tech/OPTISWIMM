@@ -1,0 +1,20 @@
+id: DO-001
+
+name: Develop VO2max
+
+type: objective
+
+category: physiology
+
+description: >
+  Increase maximal aerobic power by maximizing time spent
+  near VO2max.
+
+tags:
+  - vo2
+  - aerobic
+  - endurance
+
+version: "1.0.0"
+
+status: validated

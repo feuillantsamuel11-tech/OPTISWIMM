@@ -1,0 +1,18 @@
+id: DM-001
+
+name: Short Intervals
+
+type: method
+
+category: interval
+
+description: >
+  Repeated short efforts with limited recovery.
+
+tags:
+  - vo2
+  - interval
+
+version: "1.0.0"
+
+status: validated

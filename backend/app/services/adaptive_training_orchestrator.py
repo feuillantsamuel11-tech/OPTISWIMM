@@ -64,7 +64,9 @@ from app.services.context_builder import(
 
 from app.services.load_analyzer import LoadAnalyzer
 
-
+from app.services.decision_engine.decision_engine import (
+    DecisionEngine,
+)
 class AdaptiveTrainingOrchestrator:
 
     def __init__(self):
@@ -72,6 +74,7 @@ class AdaptiveTrainingOrchestrator:
         # =============================================
         # LEGACY ENGINES
         # =============================================
+    
 
         self.readiness_engine = (
             ReadinessEngine()
@@ -106,6 +109,7 @@ class AdaptiveTrainingOrchestrator:
 
         self.load_analyzer = LoadAnalyzer()
 
+        self.decision_engine = DecisionEngine()
         # =============================================
         # LONGITUDINAL ENGINES
         # =============================================
@@ -147,23 +151,26 @@ class AdaptiveTrainingOrchestrator:
        # =================================================
 
     def build_adaptive_session(
-
         self,
-
         athlete_profile=None,
-
         athlete_data=None,
-
         readiness_inputs=None,
-
         previous_sessions=None,
-
         current_block=None,
-
         target_competition=None,
-
         **kwargs
     ):
+
+        athlete_profile = athlete_profile or athlete_data
+
+        decision = self.decision_engine.analyze(
+            athlete_profile
+        )
+
+        print("DECISION")
+        print(decision)
+
+    
 
         # =============================================
         # LEGACY COMPATIBILITY

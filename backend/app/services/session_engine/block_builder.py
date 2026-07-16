@@ -335,8 +335,8 @@ class BlockBuilder:
         exercises
     ):
 
-        return self.ranker.rank(exercises)
-
+        return self.exercise_ranker.rank(exercises)
+    
     # =================================================
     # REMOVE TITLE DUPLICATES
     # =================================================
@@ -641,7 +641,7 @@ class BlockBuilder:
             race_distance
         )
 
-        selected_exercises = self.ranker.select(
+        selected_exercises = self.exercise_ranker.select(
             exercises,
             limit=limit
         )

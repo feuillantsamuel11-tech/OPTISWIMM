@@ -16,3 +16,6 @@ def test_generate():
     assert result.session is not None
     assert result.decision is not None
     assert result.knowledge_path is not None
+    assert result.explanation is not None
+    assert result.explanation.summary
+    assert len(result.explanation.reasoning) > 0

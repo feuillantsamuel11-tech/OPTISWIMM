@@ -16,11 +16,15 @@ exercise_ranker = ExerciseRanker()
 
 class BlockBuilder:
 
-    def __init__(self):
-
-        self.db = SessionLocal()
-        self.scoring_engine = ScoringEngine()
-        self.exercise_ranker = ExerciseRanker()
+    def __init__(
+        self,
+        db=None,
+        scoring_engine=None,
+        exercise_ranker=None,
+    ):
+        self.db = db or SessionLocal()
+        self.scoring_engine = scoring_engine or ScoringEngine()
+        self.exercise_ranker = exercise_ranker or ExerciseRanker()
     # =================================================
     # NORMALIZE TITLE
     # =================================================
@@ -584,24 +588,15 @@ class BlockBuilder:
     # =================================================
 
     def build(
-
         self,
-
         objective,
-
         used_titles,
-
         race_distance=None,
-
         category=None,
-
         max_intensity=10,
-
         max_volume=None,
-
         limit=1,
-
-        **kwargs
+        **kwargs,
     ):
 
         exercises = self._prepare_exercises(
@@ -613,37 +608,9 @@ class BlockBuilder:
             max_volume=max_volume,
         )
 
-        exercises = self.filter_duplicates(
-
-            exercises,
-
-            used_titles
-        )
-
-        exercises = self.filter_intensity(
-
-            exercises,
-
-            max_intensity
-        )
-
-        exercises = self.filter_volume(
-
-            exercises,
-
-            max_volume
-        )
-
-        exercises = self.filter_race_specificity(
-
-            exercises,
-
-            race_distance
-        )
-
         selected_exercises = self.exercise_ranker.select(
             exercises,
-            limit=limit
+            limit=limit,
         )
 
         selected = []
@@ -651,19 +618,11 @@ class BlockBuilder:
         for ex in selected_exercises:
 
             used_titles.add(
-
-                self.normalize_title(
-                    ex.title
-                )
+                self.normalize_title(ex.title)
             )
 
             selected.append(
-
-                self.serialize(
-                    ex
-                )
+                self.serialize(ex)
             )
 
         return selected
-
-    

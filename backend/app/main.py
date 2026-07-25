@@ -1,14 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.api.router import router
 
-# ---------------------------------------------------
-# API ROUTES
-# ---------------------------------------------------
-
-from app.api.generate_session import (
-    router as session_router
+app = FastAPI(
+    title="OPTISWIMM API",
+    version="1.0.0",
 )
 
+app.include_router(router)
 # ---------------------------------------------------
 # FASTAPI APP
 # ---------------------------------------------------
@@ -56,14 +55,7 @@ app.add_middleware(
 # INCLUDE ROUTERS
 # ---------------------------------------------------
 
-app.include_router(
-
-    session_router,
-
-    prefix="/api",
-
-    tags=["Session Generator"]
-)
+app.include_router(router)
 
 # ---------------------------------------------------
 # ROOT ROUTE

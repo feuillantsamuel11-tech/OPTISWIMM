@@ -9,12 +9,15 @@ from app.knowledge.graph import KnowledgeGraph
 from app.knowledge.resolver import KnowledgeResolver
 
 from app.models.generation_result import GenerationResult
-
+from app.services.explainability.explanation_engine import (
+    ExplanationEngine,
+)
 class OptiSwimmEngine:
 
     def __init__(self):
 
         self.decision_engine = DecisionEngine()
+        self.explanation_engine = ExplanationEngine()
 
         self.registry = KnowledgeRegistry()
 
@@ -36,8 +39,15 @@ class OptiSwimmEngine:
             readiness="normal",
         )
         
+        explanation = self.explanation_engine.build(
+            decision=decision,
+            knowledge_path=path,
+            session=session,
+        )
+
         return GenerationResult(
             session=session,
             decision=decision,
             knowledge_path=path,
-        )
+            explanation=explanation,
+        ) 

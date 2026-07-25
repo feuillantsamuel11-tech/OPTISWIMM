@@ -1,10 +1,6 @@
-from dataclasses import dataclass, field
+from app.domain.decision.models import *
 
-@dataclass(slots=True)
-class DecisionResult:
-    objectives: list[str]
-    constraints: dict = field(default_factory=dict)
-    reasoning: list[str] = field(default_factory=list)
-    confidence: float = 0.0
-    specialist: str = "unknown"
-    load_state: str = "unknown"
+__all__ = [
+    "Decision",
+    "DecisionResult",
+]
